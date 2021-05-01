@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" class="menu-open">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mes_css/layout-main.css">
+    <link rel="stylesheet" href="css/mes_css/layout-secondary.css">
+    <link rel="stylesheet" href="css/mes_css/layout-footer.css">
+    <link rel="stylesheet" href="css/mes_css/menu.css">
 
+    <title>Profil | AlterinGames</title>
+</head>
+
+<body>
+<header>
+    <!--MENU-->
+    <div class="nav-toggle" onclick='document.documentElement.classList.toggle("menu-open")'>
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li class="menu-lien-principal"><a href="#">J'ai déjà un compte</a></li>
+            <li class="menu-lien-principal"><a href="#">Je n'ai pas encore de compte</a></li>
+        </ul>
+        <h1>prenez le contrôle des règles</h1>
+        <img src="img/logo_menu.png" alt="Logo AlterinGames: Alter the rules" class="claire">
+    </nav>
+</header>
 </body>
 </html>
