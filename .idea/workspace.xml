@@ -20,11 +20,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exemple-page-regle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/access-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buy-premium.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modify-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parametres.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/why-premium.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-generale.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-generale.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-secondaire.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-secondaire.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/relge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-generale.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-secondaire.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-secondary.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple-page-jeu.html" beforeDir="false" afterPath="$PROJECT_DIR$/exemple-page-jeu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple-page-regle.html" beforeDir="false" afterPath="$PROJECT_DIR$/exemple-page-regle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fond-footer-phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background-footer-phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fond-footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background-footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_7familles.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_7familles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_bataille.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_bataille.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_blackjack.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_blackjack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_bonnepaye.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_bonnepaye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_cluedo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_cluedo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_monopoly.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_monopoly.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_poker.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_poker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_quiestce.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_quiestce.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_risk.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_risk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_scrabble.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_scrabble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_uno.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_uno.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_werewolf.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/square_img_werewolf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/insta_sombre.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/insta_dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_sombre.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo_dark.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/path-1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/path-1_sombre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/path-2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/path-2_sombre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/path-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/path-3_sombre.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeux-cartes.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeux-societe.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liste-jeux-cartes.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liste-jeux-societe.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-game-list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +76,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,7 +114,7 @@
       <updated>1617212523249</updated>
       <workItem from="1617212524287" duration="487000" />
       <workItem from="1617279615173" duration="74000" />
-      <workItem from="1619874549605" duration="14865000" />
+      <workItem from="1619874549605" duration="15800000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit AlterinGames (main site)">
       <created>1617212772850</created>
@@ -147,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619888590603</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="exemple d'une page de règle (ici, poker)">
+      <created>1619889562638</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619889562638</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,13 +219,14 @@
     <MESSAGE value="liste-jeux-societe.html + réagencement css (suppr styles.css -&gt; transfert vers mise-en-page-generale.css)" />
     <MESSAGE value="liste-jeux-cartes.html" />
     <MESSAGE value="exemple d'une page de jeu (ici, poker)" />
-    <option name="LAST_COMMIT_MESSAGE" value="exemple d'une page de jeu (ici, poker)" />
+    <MESSAGE value="exemple d'une page de règle (ici, poker)" />
+    <option name="LAST_COMMIT_MESSAGE" value="exemple d'une page de règle (ici, poker)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619887560265">
+    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619890300107">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1619887560265" />
+    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1619890300107" />
     <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1617279688201">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

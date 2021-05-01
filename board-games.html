@@ -4,10 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/lib/normalize.css">
-        <link rel="stylesheet" href="css/mes_css/mise-en-page-generale.css">
-        <link rel="stylesheet" href="css/mes_css/mise-en-page-secondaire.css">
-        <link rel="stylesheet" href="css/mes_css/mise-en-page-footer.css">
+        <link rel="stylesheet" href="css/mes_css/layout-main.css">
+        <link rel="stylesheet" href="css/mes_css/layout-secondary.css">
+        <link rel="stylesheet" href="css/mes_css/layout-footer.css">
         <link rel="stylesheet" href="css/mes_css/menu.css">
+        <link rel="stylesheet" href="css/mes_css/carrousel.css">
 
         <title>Jeux de société | AlterinGames</title>
     </head>
@@ -17,7 +18,6 @@
             <img src="img/image_board.png" alt="" class="img_head">
             <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="logo claire">
             <h1>Jeux de société</h1>
-            <p>Liste complète</p>
 
             <!--MENU-->
             <div class="nav-toggle" onclick='document.documentElement.classList.toggle("menu-open")'>
@@ -26,8 +26,8 @@
             <nav class="menu">
                 <ul>
                     <li class="menu-lien-principal"><a href="index.html">Accueil</a></li>
-                    <li class="menu-lien-principal"><a href="jeux-societe.html">Jeux de société</a></li>
-                    <li class="menu-lien-principal"><a href="jeux-cartes.html">Jeux de cartes</a></li>
+                    <li class="menu-lien-principal"><a href="#">Jeux de société</a></li>
+                    <li class="menu-lien-principal"><a href="card-games.html">Jeux de cartes</a></li>
                     <li class="menu-lien-principal"><a href="">Outils</a></li>
                     <li class="menu-lien-secondaire"><a href="">Profil</a></li>
                     <li class="menu-lien-secondaire"><a href="">Paramètres</a></li>
@@ -39,23 +39,30 @@
         </header>
 
         <main>
-            <ul class="liste-jeux">
-                <li class="liste-lettre">C -</li>
-                <li><a href="">Cluedo</a></li>
-                <li class="liste-lettre">L -</li>
-                <li><a href="">La Bonne Paye</a></li>
-                <li><a href="">Loups-Garous</a></li>
-                <li class="liste-lettre">M -</li>
-                <li><a href="">Monopoly</a></li>
-                <li class="liste-lettre">Q -</li>
-                <li><a href="">Qui est-ce ?</a></li>
-                <li class="liste-lettre">R -</li>
-                <li><a href="">Risk</a></li>
-                <li class="liste-lettre">S -</li>
-                <li><a href="">Scrabble</a></li>
-                <li class="liste-lettre">U -</li>
-                <li><a href="">UNO</a></li>
-            </ul>
+            <div>
+                <p>Tout le monde les aime ! Tout du moins jusqu'à ce que quelqu'un commence à gagner un peu trop souvent… Faire six 6 à la suite, admettez que c'est quand même louche !</p>
+            </div>
+
+            <section class="carrousel">
+
+                <h2>Jeux <span class="orange">populaires</span></h2>
+                <ul>
+                    <li><a href=""><img src="img/square_img_uno.png" alt=""></a></li>
+                    <li><a href=""><img src="img/square_img_monopoly.png" alt=""></a></li>
+                    <li><a href=""><img src="img/square_img_scrabble.png" alt=""></a></li>
+                    <li><a href=""><img src="img/square_img_cluedo.png" alt=""></a></li>
+                </ul>
+
+                <h2>Nos <span class="orange">favoris</span></h2>
+                <ul>
+                    <li><a href=""><img src="img/square_img_werewolf.png" alt=""></a></li>
+                    <li><a href=""><img src="img/square_img_bonnepaye.png" alt=""></a></li>
+                    <li><a href=""><img src="img/square_img_risk.png" alt=""></a></li>
+                    <li><a href=""><img src="img/square_img_quiestce.png" alt=""></a></li>
+                </ul>
+
+            </section>
+            <a href="#" class="bouton-sobre">Accédez à la liste de tous les jeux</a>
         </main>
 
         <footer>
