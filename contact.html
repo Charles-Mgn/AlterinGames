@@ -1,112 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/lib/normalize.css">
-        <link rel="stylesheet" href="css/mes_css/layout-main.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mes_css/layout-main.css">
+    <link rel="stylesheet" href="css/mes_css/layout-secondary.css">
+    <link rel="stylesheet" href="css/mes_css/layout-footer.css">
+    <link rel="stylesheet" href="css/mes_css/menu.css">
 
-        <title>Découvrez AlterinGames</title>
-    </head>
+    <title>Contact | AlterinGames</title>
+</head>
 
-    <body class="container">
+<body>
+<header>
+    <img src="img/image_dice_phone.png" alt="Dé sur un fond noir" class="img_head">
+    <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="logo claire">
+    <h1>prenez le contrôle des règles</h1>
 
-        <header>
-            <h1>prenez le contrôle des règles</h1>
-            <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="claire">
-            <img src="img/logo_dark.webp" alt="Logo AlterinGames: Alter the rules" class="sombre">
-        </header>
+    <!--MENU-->
+    <div class="nav-toggle" onclick='document.documentElement.classList.toggle("menu-open")'>
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li class="menu-lien-principal"><a href="">Accueil</a></li>
+            <li class="menu-lien-principal"><a href="board-games.html">Jeux de société</a></li>
+            <li class="menu-lien-principal"><a href="card-games.html">Jeux de cartes</a></li>
+            <li class="menu-lien-principal"><a href="">Outils</a></li>
+            <li class="menu-lien-secondaire"><a href="">Profil</a></li>
+            <li class="menu-lien-secondaire"><a href="">Paramètres</a></li>
+            <li class="menu-lien-secondaire"><a href="">Contact</a></li>
+        </ul>
+        <h1>prenez le contrôle des règles</h1>
+        <img src="img/logo_menu.png" alt="Logo AlterinGames: Alter the rules" class="claire">
+    </nav>
 
-        <main>
-            <img src="img/image_dice.webp" alt="Dé sur un fond noir" id="de">
-            <img src="img/image_famille.webp" alt="Famille jouant à un jeu de société" id="famille">
-            <img src="img/image_echecs.webp" alt="Personnes jouant aux échecs" id="echecs">
-            <img src="img/path-1.webp" alt="Chemin" class="claire" id="path-1">
-            <img src="img/path-1_sombre.png" alt="Chemin" class="sombre" id="path-1_sombre">
-            <img src="img/path-2.webp" alt="Chemin 2" class="claire" id="path-2">
-            <img src="img/path-2_sombre.png" alt="Chemin 2" class="sombre" id="path-2_sombre">
-            <img src="img/path-3.webp" alt="Chemin 3" class="claire" id="path-3">
-            <img src="img/path-3_sombre.webp" alt="Chemin 3" class="sombre" id="path-3_sombre">
-            <input type="checkbox" onclick="jour_nuit ()" class="jour_nuit" id="jour_nuit">
-            <label for="jour_nuit"></label>
-            <div id="para1">
-                    <p>AlterinGames vous propose de retrouver le goût des jeux sur tables grâce à des règles alternatives qui chamboulerons vos parties entre amis ou en famille !</p>
-                    <a href="#para4" class="je_minscris">Je m<span class="blanc">'</span>inscris</a>
-            </div>
-            <div id="para2">
-                    <p>Que vous soyez jeunes ou plus âgés, venez découvrir ou redécouvrir vos jeux favoris, et venez proposer VOS propres règles grâce à une communauté en pleine expansion.</p>
-            </div>
-            <div id="para3">
-                    <p>Devenez les maîtres du jeu ! <span>Alter the rules,</span> alter the games.</p>
-                    <a href="#para4" class="je_minscris">Je m<span class="blanc">'</span>inscris</a>
-            </div>
-            <div id="para4">
-                <p>Venez partager vos règles sur <span class="orange">AlterinGames</span></p>
-            </div>
+</header>
 
-            <form>
-                <div class="association-form">
-                    <label>Pseudo</label>
-                    <input type="text" required>
-                </div>
-                <div class="association-form">
-                    <label>Adresse mail</label>
-                    <input type="text" required>
-                </div>
-                <div class="association-form">
-                    <label>Mot de passe</label>
-                    <input type="password" required>
-                </div>
-                <div class="association-form">
-                    <label>Confirmer le mot de passe</label>
-                    <input type="password" required>
-                </div>
-                <input type="submit" value="Inscrivez-vous" >
-            </form>
-        </main>
+<main>
+    <h3><span class="orange">AlterinGames</span>, c'est ...</h3>
+    <h4>Une équipe de passionnées</h4>
 
-        <aside>
-            <h2><span class="orange">AlterinGames</span>, c'est ...</h2>
-            <h3>Une équipe de passionnés</h3>
-            <div id="Charles" class="photo">
-                <img src="img/photo_charles.webp" alt="Photo Charles Mangin" class="clipCircle">
-                <p><span class="orange">Charles</span> Mangin</p>
-                <a href="https://www.instagram.com/charles_0229/"><img src="img/insta.png" class="claire insta" alt="Logo instagram"><img src="img/insta_dark.png" class="sombre" alt="Logo instagram"><span class="orange">@</span>charles<span class="orange">_</span>0229</a>
-            </div>
-            <div id="Julien" class="photo">
-                <img src="img/photo_julien.webp" alt="Photo Julien Ferré" class="clipCircle">
-                <p><span class="orange">Julien</span> Ferré</p>
-                <a href="https://www.instagram.com/juju_le_videomaker/"><img src="img/insta.png" class="claire insta" alt="Logo instagram"><img src="img/insta_dark.png" class="sombre" alt="Logo instagram"><span class="orange">@</span>juju<span class="orange">_</span>le<span class="orange">_</span>videomaker</a>
-            </div>
-            <div id="Floran" class="photo">
-                <img src="img/photo_floran.webp" alt="Photo Floran Marchal" class="clipCircle">
-                <p><span class="orange">Floran</span> Marchal</p>
-                <a href="https://www.instagram.com/floragon222/"><img src="img/insta.png" class="claire insta" alt="Logo instagram"><img src="img/insta_dark.png" class="sombre" alt="Logo instagram"><span class="orange">@</span>floragon222</a>
-            </div>
-            <p>Mais c'est aussi bien sûr chacun d'entre <span class="orange">vous</span> !</p>
-        </aside>
+    <img src="" alt="">
+    <p><span class="orange">Charles</span> Mangin</p>
+    <p></p>
 
-        <footer>
-            <div class="mentions">
-                <p>Ce site a été créé par Charles Mangin, Julien Ferré, et Floran Marchal, étudiants au DUT MMI de Montbéliard</p>
-                <p>Ce projet a été réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-                <p>Tous droits de reproduction et de diffusion réservés © 2021</p>
-            </div>
-            <div class="footer_links">
-                <a href="">Paramètres</a>
-                <a href="">Nous contacter</a>
-                <a href="">Découvrez nos autres projets</a>
-            </div>
-            <img src="img/background-footer.png" alt="">
-        </footer>
+    <img src="" alt="">
+    <p><span class="orange">Julien</span> Ferré</p>
+    <p></p>
 
-    </body>
+    <img src="" alt="">
+    <p><span class="orange">Floran</span> Marchal</p>
+    <p></p>
 
-    <script>
-            function jour_nuit() {
-                let element = document.body;
-                element.classList.toggle("jour");
-            }
-    </script>
+    <p>Mais c'est aussi bien sûr chacun d'entre vous !</p>
 
+    <h4>Nos <span class="orange">autres projets</span></h4>
+    <ul>
+        <li><a href="">> IA - Un avenir pas si rose ?</a></li>
+        <li><a href="">> Terminateur Web</a></li>
+        <li><a href="">> Rescom</a></li>
+    </ul>
+
+    <h3><span class="orange">Contactez</span>-nous</h3>
+    <form>
+        <label>Sujet</label>
+        <input type="text">
+        <label>Adresse mail</label>
+        <input type="text">
+        <label>Message</label>
+        <input type="text">
+        <input type="submit" value="Envoyez">
+    </form>
+</main>
+
+<footer>
+    <div class="mentions">
+        <p>Ce site a été créé par Charles Mangin, Julien Ferré, et Floran Marchal, étudiants au DUT MMI de Montbéliard</p>
+        <p>Ce projet a été réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+        <p>Tous droits de reproduction et de diffusion réservés © 2021</p>
+    </div>
+    <div class="footer_links">
+        <a href="">Paramètres</a>
+        <a href="">Nous contacter</a>
+        <a href="">Découvrez nos autres projets</a>
+    </div>
+</footer>
+</body>
 </html>

@@ -145,3 +145,30 @@ a {
 .bouton-non {
     background-color: #227F89;
 }
+
+form * {
+    display: block;
+    transition: all .3s;
+}
+
+form label {
+    padding-top: 1rem;
+}
+
+form input {
+    margin-bottom: 1rem;
+    width: 40.7vw;
+    padding-top: 1rem;
+}
+
+form input[type="submit"] {
+    top: 50%;
+    right: 0;
+    padding: 2rem 1rem;
+    width: 22.4vw;
+    text-align: center;
+}
+
+.association-form {
+    width: 30vw;
+}
