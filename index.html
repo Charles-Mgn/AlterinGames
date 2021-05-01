@@ -1,59 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/lib/normalize.css">
-    <link rel="stylesheet" href="css/mes_css/mise-en-page.css">
-    <link rel="stylesheet" href="css/mes_css/styles.css">
-    <link rel="stylesheet" href="css/mes_css/mode_jour.css">
-    <title>AlterinGames - Prenez le contrôle</title>
-</head>
-<body>
-    <header>
-        <h1>prenez le contrôle des règles</h1>
-        <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="claire">
-        <img src="img/logo_sombre.webp" alt="Logo AlterinGames: Alter the rules" class="sombre">
-    </header>
-    <main>
-        <img src="img/image_dice.webp" alt="Dé sur un fond noir" id="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/lib/normalize.css">
+        <link rel="stylesheet" href="css/mes_css/mise-en-page.css">
+        <link rel="stylesheet" href="css/mes_css/styles.css">
+        <link rel="stylesheet" href="css/mes_css/mode_jour.css">
+        <link rel="stylesheet" href="css/mes_css/menu.css">
 
-        <p>Découvrez de <span class="orange">nouvelles manières de jouer</span> à vos jeux favoris, le tout gratuitement !</p>
+        <title>AlterinGames - Prenez le contrôle</title>
+    </head>
 
-        <div>
-            <h2>Jeux de société</h2>
-            <p>Êtes-vous plus Monopoly ou Scrabble ?</p>
-        </div>
-        <div>
-            <h2>Jeux de cartes</h2>
-            <p>Dans chaque Bataille gardez votre Poker face</p>
-        </div>
+    <body class="index">
+        <header>
+            <img src="img/image_dice_phone.png" alt="Dé sur un fond noir" id="de">
+            <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="claire">
+            <img src="img/logo_sombre.webp" alt="Logo AlterinGames: Alter the rules" class="sombre">
+            <h1>prenez le contrôle des règles</h1>
 
-        <h3>Que proposons-nous ?</h3>
-        <p>Grâce à AlterinGames, découvrez les règles alternatives des jeux qui vous tiennent à cœur.</p>
-        <p>Ces règles sont proposées directement par la communauté et sont triées via un système de votes.</p>
-        <p>Postez des règles et commentez celles des autres utilisateurs, le tout dans la convivialité !</p>
-        <a href="#" class="y-accede">J<span class="blanc">'</span>accède</a>
+            <!--MENU-->
+            <div class="nav-toggle" onclick='document.documentElement.classList.toggle("menu-open")'>
+                <div class="nav-toggle-bar"></div>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li class="menu-lien-principal"><a href="">Accueil</a></li>
+                    <li class="menu-lien-principal"><a href="jeux-societe.html">Jeux de société</a></li>
+                    <li class="menu-lien-principal"><a href="jeux-cartes.html">Jeux de cartes</a></li>
+                    <li class="menu-lien-principal"><a href="">Outils</a></li>
+                    <li class="menu-lien-secondaire"><a href="">Profil</a></li>
+                    <li class="menu-lien-secondaire"><a href="">Paramètres</a></li>
+                    <li class="menu-lien-secondaire"><a href="">Contact</a></li>
+                </ul>
+                <h1>prenez le contrôle des règles</h1>
+                <img src="img/logo_menu.png" alt="Logo AlterinGames: Alter the rules" class="claire">
+            </nav>
 
-        <p>Vous avez perdu la notice d'un de vos jeux ? Pas de panique, nous vous proposons aussi l'accès aux règles officielles de ces derniers !</p>
-        <a href="#" class="y-accede">J<span class="blanc">'</span>accède</a>
+        </header>
 
-        <p>Besoin d'un dé ou d'une pièce ? Retrouvez-les aussi ici grâce aux outils mis à votre disposition.</p>
-        <a href="#" class="y-accede">J<span class="blanc">'</span>accède</a>
-    </main>
+        <main>
 
-    <footer>
-        <div class="mentions">
-            <p>Ce site a été créé par Charles Mangin, Julien Ferré, et Floran Marchal, étudiants au DUT MMI de Montbéliard</p>
-            <p>Ce projet a été réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
-            <p>Tous droits de reproduction et de diffusion réservés © 2021</p>
-        </div>
-        <div class="footer_links">
-            <a href="">Paramètres</a>
-            <a href="">Nous contacter</a>
-            <a href="">Découvrez nos autres projets</a>
-        </div>
-        <img src="img/fond-footer.png" alt="">
-    </footer>
-</body>
+            <p class="catch-phrase">Découvrez de <span class="orange">nouvelles manières de jouer</span> à vos jeux favoris, le tout gratuitement !</p>
+
+            <a href="jeux-societe.html" class="bouton societe">
+                <h2>Jeux de société</h2>
+                <p>Êtes-vous plus Monopoly ou Scrabble ?</p>
+            </a>
+            <a href="jeux-cartes.html" class="bouton cartes">
+                <h2>Jeux de cartes</h2>
+                <p>Dans chaque Bataille gardez votre Poker face</p>
+            </a>
+
+            <h3>Que proposons-nous ?</h3>
+            <p>Grâce à AlterinGames, découvrez les règles alternatives des jeux qui vous tiennent à cœur.</p>
+            <p>Ces règles sont proposées directement par la communauté et sont triées via un système de votes.</p>
+            <p>Postez des règles et commentez celles des autres utilisateurs, le tout dans la convivialité !</p>
+            <a href="#" class="bouton-sobre">J<span class="blanc">'</span>accède</a>
+
+            <p>Vous avez perdu la notice d'un de vos jeux ? Pas de panique, nous vous proposons aussi l'accès aux règles officielles de ces derniers !</p>
+            <a href="#" class="bouton-sobre">J<span class="blanc">'</span>accède</a>
+
+            <p>Besoin d'un dé ou d'une pièce ? Retrouvez-les aussi ici grâce aux outils mis à votre disposition.</p>
+            <a href="#" class="bouton-sobre">J<span class="blanc">'</span>accède</a>
+        </main>
+
+        <footer>
+            <div class="mentions">
+                <p>Ce site a été créé par Charles Mangin, Julien Ferré, et Floran Marchal, étudiants au DUT MMI de Montbéliard</p>
+                <p>Ce projet a été réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+                <p>Tous droits de reproduction et de diffusion réservés © 2021</p>
+            </div>
+            <div class="footer_links">
+                <a href="">Paramètres</a>
+                <a href="">Nous contacter</a>
+                <a href="">Découvrez nos autres projets</a>
+            </div>
+        </footer>
+    </body>
 </html>

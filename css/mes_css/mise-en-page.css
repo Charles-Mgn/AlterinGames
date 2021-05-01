@@ -1,10 +1,7 @@
-@keyframes entete-logo {
-    100% { transform: translateY(0); }
-}
-
 html {
     margin: 0 auto;
     line-height: calc(3vw + .3rem);
+    max-width: 375px;
 }
 
 html * {
@@ -17,255 +14,145 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(12, 7.5vw);
-    grid-template-rows: repeat(62, 3.9vw);
-    gap: .83333vw;
-}
-
-header, main, aside, footer {
-    display: contents;
-}
-
 header > * {
     margin: 10px 0 0 0;
 }
 
 header > h1 {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 4;
     padding-right: 5.8%;
-    line-height: calc(5vw + .3rem);
+    line-height: 40px;
     text-align: right;
     vertical-align: middle;
+    display: block;
+    width: 70%;
+    margin: 10px 0 0 auto;
 }
 
 header > img {
-    grid-column: 4 / span 3;
-    width: 101%;
+    width: 350px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     transform: translateY(-20vw);
-    animation: entete-logo 3s 1s forwards;
+    animation: entete-logo .8s forwards;
+}
+@keyframes entete-logo {
+    0% {
+        opacity: .2;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
-#para1, #para2, #para3 {
-    padding: 0 2rem;
-}
-
-#para1 {
-    grid-column: 3 / span 5;
-    grid-row: 6 / span 4;
-}
-
-#para1 > p {
-    margin-bottom: 0;
-}
-
-#para2 {
-    grid-column: 8 / span 4;
-    grid-row: 15 / span 4;
-}
-
-#para3 {
-    grid-column: 2 / span 4;
-    grid-row: 24 / span 4;
-    text-align: center;
-    line-height: calc(3vw + .3rem);
-}
-
-#para3 > p > span {
-    display: block;
-}
-
-#para4 {
-    grid-column: 4 / span 6;
-    grid-row: 32 / span 2;
-    text-align: center;
-    line-height: 6rem;
-}
-
-form {
-    grid-column: 2 / span 10;
-    grid-row: 35 / span 8;
-    padding-left: calc(7.5vw + .83333vw);
-    position: relative;
-}
-
-form * {
-    display: block;
-    transition: all .3s;
-}
-
-form label {
-    padding-top: 1rem;
-}
-
-form input {
-    all: unset;
-    margin-bottom: 1rem;
-    width: 40.7vw;
-    padding-top: 1rem;
-}
-
-form input[type="submit"] {
+header > #de {
     position: absolute;
-    top: 50%;
-    right: 0;
-    padding: 2rem 1rem;
-    width: 22.4vw;
-    text-align: center;
-}
-
-.association-form {
-    width: 30vw;
-}
-
-aside h2 {
-    grid-column: 2 / span 6;
-    grid-row: 44 / span 1;
-}
-
-aside h3 {
-    grid-column: 2 / span 6;
-    grid-row: 46 / span 1;
-}
-
-.photo > img {
-    width: 100%;
+    animation: none;
+    top: 10vw;
+    left: -40vw;
+    width: 75vw;
     height: auto;
-}
-
-.photo > a {
-    display: block;
-}
-
-.photo > a > img {
-    width: 10%;
-    height: auto;
-    margin: 0 1rem -.5rem 0;
-}
-
-#Charles {
-    grid-column: 2 / span 2;
-    grid-row: 48 / span 6;
-}
-
-#Julien {
-    grid-column: 6 / span 2;
-    grid-row: 48 / span 6;
-}
-
-#Floran {
-    grid-column: 10 / span 2;
-    grid-row: 48 / span 6;
-}
-
-.clipCircle {
-    clip-path: circle(50% at 50% 50%);
-    border-radius: 50%;
-}
-
-.photo > img:hover {
-    border: #EA9632 10px solid;
-    transition: all .5s;
-}
-
-.photo p {
-    text-align: center;
-    height: 7rem;
-    padding-bottom: 1.5rem;
-    margin: 0 0 1.5rem;
-}
-
-.photo a {
-    text-align: center;
-    margin-top: 0;
-}
-
-aside p {
-    grid-column: 4 / span 8;
-    text-align: right;
-    line-height: calc(7vw + .3rem);
-    grid-row: 54 / span 1;
-}
-
-footer > .mentions {
-    padding-top: 10px;
-    margin-top: 10px;
-    grid-column: 2 / span 6;
-    grid-row: 60 / span 3;
-}
-
-footer > .footer_links {
-    grid-column: 9 / span 3;
-    grid-row: 60 / span 2;
-    padding-left: calc(7.5vw + .83333vw);
-    margin-top: 10px;
-}
-
-footer > img {
-    width: 102vw;
-    left: -2vw;
-    bottom: 0;
-}
-
-main > img, footer > img {
-    position: absolute;
     z-index: -1;
 }
 
-#de {
-    top: -5vw;
-    right: -9vw;
-    width: 47vw;
-    height: auto;
+.catch-phrase {
+    font-size: 20px;
+    line-height: 22px;
+    display: block;
+    width: 90%;
+    padding: 50px 10px 10px 10px;
 }
 
-#famille {
-    top: 46vw;
-    left: -6vw;
-    width: 53%;
-    height: auto;
+.index main .bouton {
+    display: block;
+    width: 95%;
+    border: #EA9632 2px solid;
+    margin-top: 20px;
 }
 
-#echecs {
-    top: 98vw;
-    right: -8vw;
-    width: 60%;
-    height: auto;
+.index .bouton > h2 {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
 }
 
-#path-1,#path-1_sombre {
-    top: 43vw;
-    right: 30vw;
-    width: 31vw;
-    height: auto;
+.index .bouton > p {
+    font-size: 16px;
+    padding: 10px 10px 5px 10px;
 }
 
-#path-2,#path-2_sombre {
-    top: 77vw;
-    right: 30vw;
-    width: 40vw;
-    height: auto;
-}
-#path-2_sombre{
-    top: 90vw;
+a.societe {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../img/board-game.png");
 }
 
-#path-3,#path-3_sombre{
-    top: 130vw;
-    right: 30vw;
-    width: 40vw;
-    height: auto;
+a.cartes {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../img/cards-game.png");
 }
 
-input[type="checkbox"].jour_nuit + label {
+.index h3 {
+    color: #EA9632;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+main p {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.bouton-sobre {
+    display: block;
+    margin-left: 190px;
+    padding: 10px;
+    font-size: 25px;
+    color: #EA9632;
+    border-bottom: #EEE 2px solid;
+}
+
+footer {
+    color: #242424;
+    background: url("../../img/fond-footer-phone.png") no-repeat;
+    padding: 20px;
+    margin: 0;
+}
+
+footer .mentions {
+    margin-top: 40px;
+}
+
+footer .mentions p {
+    font-size: 12px;
+}
+
+footer > .footer_links {
+    padding-top: 10px;
+    font-size: 14px;
+    border-top: #242424 1px solid;
+    position: relative;
+    height: 30px;
+}
+
+footer > .footer_links > a {
+    display: inline-block;
+    padding: 0 15px 3px 15px;
+}
+
+footer > .footer_links > a:first-of-type {
     position: absolute;
-    top: 2%;
-    right: 25%;
+    left: 0;
 }
 
-.jour .insta {
-    display: inline;
+footer > .footer_links > a:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+}
+
+footer > .footer_links > a:last-of-type {
+    position: absolute;
+    left: 23px;
+    top: 27px;
 }
