@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-generale.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-secondaire.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/mes_css/carrousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-generale.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-generale.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-secondaire.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-secondaire.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mode_jour.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mes_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jeu.html" beforeDir="false" afterPath="$PROJECT_DIR$/jeu.html" afterDir="false" />
@@ -82,7 +84,7 @@
       <updated>1617212523249</updated>
       <workItem from="1617212524287" duration="487000" />
       <workItem from="1617279615173" duration="74000" />
-      <workItem from="1619874549605" duration="9403000" />
+      <workItem from="1619874549605" duration="11531000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit AlterinGames (main site)">
       <created>1617212772850</created>
@@ -98,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619882993322</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="séparation feuilles de style">
+      <created>1619884079349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619884079349</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,13 +127,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit AlterinGames (main site)" />
     <MESSAGE value="index : contenus + css&#10;menu : contenu + css" />
-    <option name="LAST_COMMIT_MESSAGE" value="index : contenus + css&#10;menu : contenu + css" />
+    <MESSAGE value="séparation feuilles de style" />
+    <option name="LAST_COMMIT_MESSAGE" value="séparation feuilles de style" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617212739272">
+    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619884109903">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1617212739272" />
+    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1619884109903" />
     <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1617279688201">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

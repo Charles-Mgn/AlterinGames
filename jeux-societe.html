@@ -4,28 +4,64 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/lib/normalize.css">
-        <link rel="stylesheet" href="css/mes_css/mise-en-page-index.css">
+        <link rel="stylesheet" href="css/mes_css/mise-en-page-generale.css">
+        <link rel="stylesheet" href="css/mes_css/mise-en-page-secondaire.css">
+        <link rel="stylesheet" href="css/mes_css/mise-en-page-footer.css">
+        <link rel="stylesheet" href="css/mes_css/menu.css">
+        <link rel="stylesheet" href="css/mes_css/carrousel.css">
         <link rel="stylesheet" href="css/mes_css/styles.css">
-        <link rel="stylesheet" href="css/mes_css/mode_jour.css">
 
         <title>Jeux de société | AlterinGames</title>
     </head>
 
     <body>
         <header>
+            <img src="img/image_board.png" alt="" class="img_head">
+            <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="logo claire">
             <h1>Jeux de société</h1>
-            <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="claire">
-            <img src="img/logo_sombre.webp" alt="Logo AlterinGames: Alter the rules" class="sombre">
+
+            <!--MENU-->
+            <div class="nav-toggle" onclick='document.documentElement.classList.toggle("menu-open")'>
+                <div class="nav-toggle-bar"></div>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li class="menu-lien-principal"><a href="">Accueil</a></li>
+                    <li class="menu-lien-principal"><a href="jeux-societe.html">Jeux de société</a></li>
+                    <li class="menu-lien-principal"><a href="jeux-cartes.html">Jeux de cartes</a></li>
+                    <li class="menu-lien-principal"><a href="">Outils</a></li>
+                    <li class="menu-lien-secondaire"><a href="">Profil</a></li>
+                    <li class="menu-lien-secondaire"><a href="">Paramètres</a></li>
+                    <li class="menu-lien-secondaire"><a href="">Contact</a></li>
+                </ul>
+                <h1>prenez le contrôle des règles</h1>
+                <img src="img/logo_menu.png" alt="Logo AlterinGames: Alter the rules" class="claire">
+            </nav>
         </header>
 
         <main>
             <p>Tout le monde les aime ! Tout du moins jusqu'à ce que quelqu'un commence à gagner un peu trop souvent… Faire six 6 à la suite, admettez que c'est quand même louche !</p>
 
-            <h2>Jeux <span class="orange">populaires</span></h2>
-            <!--CARROUSEL-->
-            <h2>Nos <span class="orange">favoris</span></h2>
-            <!--CARROUSEL-->
-            <a href="#" class="y-accede">Accédez à la liste de tous les jeux</a>
+            <section class="carrousel">
+
+                <h2>Jeux <span class="orange">populaires</span></h2>
+                <ul>
+                    <li><a href=""><img src="img/img_uno.png" alt=""></a></li>
+                    <li><a href=""><img src="img/img_monopoly.png" alt=""></a></li>
+                    <li><a href=""><img src="img/img_scrabble.png" alt=""></a></li>
+                    <li><a href=""><img src="img/img_cluedo.png" alt=""></a></li>
+                </ul>
+
+                <h2>Nos <span class="orange">favoris</span></h2>
+                <ul>
+                    <li><a href=""><img src="img/img_werewolf.png" alt=""></a></li>
+                    <li><a href=""><img src="img/img_bonnepaye.png" alt=""></a></li>
+                    <li><a href=""><img src="img/img_risk.png" alt=""></a></li>
+                    <li><a href=""><img src="img/img_quiestce.png" alt=""></a></li>
+                </ul>
+
+            </section>
+            <a href="#" class="bouton-sobre">Accédez à la liste de tous les jeux</a>
         </main>
 
         <footer>
@@ -39,7 +75,6 @@
                 <a href="">Nous contacter</a>
                 <a href="">Découvrez nos autres projets</a>
             </div>
-            <img src="img/fond-footer.png" alt="">
         </footer>
     </body>
 </html>

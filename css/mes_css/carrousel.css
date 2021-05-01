@@ -1,0 +1,29 @@
+.carrousel {
+    margin-bottom: 2rem;
+    padding: 2rem 0 0.1rem 0;
+}
+
+.carrousel h2 {
+    margin: 0;
+    padding: 20px 10px 10px;
+}
+
+.carrousel ul {
+    padding: 0;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.carrousel img {
+    width: auto;
+    height: 20rem;
+    margin-bottom: 2rem;
+}
+
+.carrousel li {
+    flex: 1 0 14rem;
+    margin-right: 1rem;
+    scroll-snap-align: center;
+}
