@@ -1,0 +1,19 @@
+header > h1 {
+    padding-right: 5.8%;
+    line-height: 40px;
+    text-align: right;
+    vertical-align: middle;
+    display: block;
+    width: 70%;
+    margin: 10px 0 0 auto;
+}
+
+header > #de {
+    position: absolute;
+    animation: none;
+    top: 10vw;
+    left: -40vw;
+    width: 75vw;
+    height: auto;
+    z-index: -1;
+}

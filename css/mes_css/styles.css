@@ -34,37 +34,12 @@ header > h1 {
 }*/
 
 
-.je_minscris, .orange {
+.orange {
     color: #EA9632;
 }
 
 .blanc {
     color: #FFFFFF;
-}
-
-.je_minscris {
-    background: none;
-    float: right;
-    border: none;
-    border-top: #FFFFFF 1px solid;
-    border-bottom: #FFFFFF 1px solid;
-    font-family: 'NotoMono';
-    font-size: calc(1.5vw + .3rem);
-    transition: all .5s;
-}
-
-.je_minscris:hover {
-    border-top: #EA9632 1px solid;
-    border-bottom: #EA9632 1px solid;
-    color: #FFFFFF;
-    font-size: calc(1.5vw + .4rem);
-    transition: all .3s;
-}
-
-.je_minscris:hover .blanc {
-    color: #EA9632;
-    font-size: calc(1.5vw + .4rem);
-    transition: all .3s;
 }
 
 a {
@@ -74,34 +49,4 @@ a {
 
 .footer_links a {
     color: #242424;
-    transition: all .5s;
-}
-
-.footer_links a:hover {
-    color: #EA9632;
-    transform: translateX(10px);
-    font-size: calc(.55vw + .4rem);
-    transition: all .3s;
-}
-
-body::-webkit-scrollbar {
-    width: .5rem;
-    background-color: #227F89;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: #EA9632;
-}
-
-
-.sombre{
-    display: none;
-}
-
-.claire{
-    display: block;
-}
-
-.insta {
-    display: inline;
 }

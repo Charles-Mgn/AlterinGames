@@ -1,0 +1,50 @@
+html {
+    margin: 0 auto;
+    max-width: 375px;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 1rem;
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+
+header > * {
+    margin: 10px 0 0 0;
+}
+
+.logo {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-20vw);
+    animation: entete-logo .8s forwards;
+}
+@keyframes entete-logo {
+    0% {
+        opacity: .2;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+main p {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.bouton-sobre {
+    display: block;
+    margin-left: 190px;
+    padding: 10px;
+    font-size: 25px;
+    color: #EA9632;
+    border-bottom: #EEE 2px solid;
+}

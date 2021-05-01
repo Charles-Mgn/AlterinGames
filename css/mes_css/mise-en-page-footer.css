@@ -1,0 +1,43 @@
+footer {
+    color: #242424;
+    background: url("../../img/fond-footer-phone.png") no-repeat;
+    padding: 20px;
+    margin: 0;
+}
+
+footer .mentions {
+    margin-top: 40px;
+}
+
+footer .mentions p {
+    font-size: 12px;
+}
+
+footer > .footer_links {
+    padding-top: 10px;
+    font-size: 14px;
+    border-top: #242424 1px solid;
+    position: relative;
+    height: 30px;
+}
+
+footer > .footer_links > a {
+    display: inline-block;
+    padding: 0 15px 3px 15px;
+}
+
+footer > .footer_links > a:first-of-type {
+    position: absolute;
+    left: 0;
+}
+
+footer > .footer_links > a:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+}
+
+footer > .footer_links > a:last-of-type {
+    position: absolute;
+    left: 23px;
+    top: 27px;
+}

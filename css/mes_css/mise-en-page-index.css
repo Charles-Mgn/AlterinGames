@@ -1,0 +1,65 @@
+.index header > h1 {
+    padding-right: 5.8%;
+    line-height: 40px;
+    text-align: right;
+    vertical-align: middle;
+    display: block;
+    width: 70%;
+    margin: 10px 0 0 auto;
+}
+
+.index .logo {
+    width: 350px;
+}
+
+.img_head {
+    position: absolute;
+    animation: none;
+    top: -1vw;
+    left: -40vw;
+    width: 75vw;
+    height: auto;
+    z-index: -1;
+}
+
+.catch-phrase {
+    font-size: 20px;
+    line-height: 22px;
+    display: block;
+    width: 90%;
+    padding: 50px 10px 10px 10px;
+}
+
+.index main .bouton {
+    display: block;
+    width: 95%;
+    border: #EA9632 2px solid;
+    margin-top: 20px;
+}
+
+.index .bouton > h2 {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.index .bouton > p {
+    font-size: 16px;
+    padding: 10px 10px 5px 10px;
+}
+
+a.societe {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../img/board-game.png");
+}
+
+a.cartes {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../img/cards-game.png");
+}
+
+.index h3 {
+    color: #EA9632;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
