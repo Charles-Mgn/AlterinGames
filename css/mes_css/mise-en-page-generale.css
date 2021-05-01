@@ -119,3 +119,29 @@ a {
     font-size: 18px;
     font-weight: bold;
 }
+
+.display-votes {
+    margin-top: 30px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.display-votes > * {
+    padding-bottom: 10px;
+}
+
+.demande-vote {
+    border: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 15px 50px;
+    margin: 0 14px;
+}
+
+.bouton-oui {
+    background-color: #EA9632;
+}
+
+.bouton-non {
+    background-color: #227F89;
+}

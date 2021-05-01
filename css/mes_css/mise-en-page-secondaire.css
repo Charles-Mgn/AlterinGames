@@ -21,7 +21,7 @@ header > h1 {
     z-index: -1;
 }
 
-main div:first-of-type {
+main > div:first-of-type {
     display: block;
     width: 75%;
     padding-bottom: 40px;
