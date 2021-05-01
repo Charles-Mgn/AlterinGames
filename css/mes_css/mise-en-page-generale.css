@@ -1,6 +1,20 @@
+@font-face {
+    font-family: 'NotoMono';
+    src: url('../../fonts/NotoMono-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Britannic';
+    src: url('../../fonts/britannic.ttf') format('truetype')
+}
+
 html {
     margin: 0 auto;
     max-width: 375px;
+    color: #FFFFFF;
+    font-family: 'NotoMono';
+    position: relative;
+    font-size: 62.5%;
 }
 
 html * {
@@ -8,6 +22,7 @@ html * {
 }
 
 body {
+    background-color: #242424;
     margin: 0 1rem;
     max-width: 1920px;
     overflow-x: hidden;
@@ -15,6 +30,16 @@ body {
 
 header > * {
     margin: 10px 0 0 0;
+}
+
+header > h1 {
+    font-family: 'Britannic';
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+header > p {
+    font-size: 14px;
 }
 
 .logo {
@@ -58,4 +83,32 @@ ul {
 
 li {
     list-style: none;
+}
+
+.orange {
+    color: #EA9632;
+}
+
+.blanc {
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.liste-jeux {
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+.liste-jeux > li {
+    padding: 5px 0;
+}
+
+.liste-lettre {
+    color: #EA9632;
+    font-size: 18px;
+    font-weight: bold;
 }

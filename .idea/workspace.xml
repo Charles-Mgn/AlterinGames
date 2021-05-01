@@ -20,10 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/liste-jeux-societe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-secondaire.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-secondaire.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page-generale.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page-generale.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeu.html" beforeDir="false" afterPath="$PROJECT_DIR$/jeu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jeux-cartes.html" beforeDir="false" afterPath="$PROJECT_DIR$/jeux-cartes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jeux-societe.html" beforeDir="false" afterPath="$PROJECT_DIR$/jeux-societe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/relge.html" beforeDir="false" afterPath="$PROJECT_DIR$/relge.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +61,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css/mes_css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PHP Storm Projects\AlterinGames\css\mes_css" />
       <recent name="C:\PHP Storm Projects\AlterinGames" />
+      <recent name="C:\PHP Storm Projects\AlterinGames\css\mes_css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +81,7 @@
       <updated>1617212523249</updated>
       <workItem from="1617212524287" duration="487000" />
       <workItem from="1617279615173" duration="74000" />
-      <workItem from="1619874549605" duration="12139000" />
+      <workItem from="1619874549605" duration="13121000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit AlterinGames (main site)">
       <created>1617212772850</created>
@@ -104,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619886232197</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="jeux-cartes.html + css associé">
+      <created>1619886807050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619886807050</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jeux-cartes.html + css associé">
+      <created>1619886820559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619886820559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,13 +147,14 @@
     <MESSAGE value="index : contenus + css&#10;menu : contenu + css" />
     <MESSAGE value="séparation feuilles de style" />
     <MESSAGE value="jeux-societe.html + css associé&#10;carrousel.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="jeux-societe.html + css associé&#10;carrousel.css" />
+    <MESSAGE value="jeux-cartes.html + css associé" />
+    <option name="LAST_COMMIT_MESSAGE" value="jeux-cartes.html + css associé" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619884109903">
+    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619887560265">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1619884109903" />
+    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1619887560265" />
     <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1617279688201">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
