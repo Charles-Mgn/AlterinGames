@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buy-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/buy-premium.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modify-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/modify-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/why-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/why-premium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +71,7 @@
       <updated>1617212523249</updated>
       <workItem from="1617212524287" duration="487000" />
       <workItem from="1617279615173" duration="74000" />
-      <workItem from="1619874549605" duration="20415000" />
+      <workItem from="1619874549605" duration="20610000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit AlterinGames (main site)">
       <created>1617212772850</created>
@@ -226,7 +220,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619895016440</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="modification des images intégrées">
+      <created>1619895857483</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1619895857483</updated>
+    </task>
+    <task id="LOCAL-00023" summary="retirer les photos qui ne sont pas utilisé pour le site mobile">
+      <created>1619895976316</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1619895976316</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +269,9 @@
     <MESSAGE value="contenu html profil" />
     <MESSAGE value="contenu html modify-profile.html" />
     <MESSAGE value="contenu html contact.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="contenu html contact.html" />
+    <MESSAGE value="modification des images intégrées" />
+    <MESSAGE value="retirer les photos qui ne sont pas utilisé pour le site mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="retirer les photos qui ne sont pas utilisé pour le site mobile" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619890300107">
