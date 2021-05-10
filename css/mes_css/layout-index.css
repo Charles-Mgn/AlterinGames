@@ -40,7 +40,7 @@ header > h1 {
     display: block;
     width: 95%;
     border: #EA9632 2px solid;
-    margin-top: 20px;
+    margin: 20px auto 0;
 }
 
 .index .button > h2 {

@@ -9,7 +9,7 @@
 }
 
 html {
-    margin: 0 auto;
+    margin: 0;
     max-width: 375px;
     color: #FFFFFF;
     font-family: 'NotoMono';
@@ -23,12 +23,12 @@ html * {
 
 body {
     background-color: #242424;
-    margin: 0 1rem;
+    margin: 0;
     max-width: 1920px;
     overflow-x: hidden;
 }
 
-header > * {
+header > *:not(.img_head) {
     margin: 10px 0 0 0;
 }
 
@@ -40,6 +40,10 @@ header > h1 {
 
 header > p {
     font-size: 14px;
+}
+
+main {
+    margin: 0 1rem 3.5rem 1rem;
 }
 
 .logo {
@@ -66,6 +70,7 @@ main p {
 .bouton-sobre {
     display: block;
     margin-left: 190px;
+    margin-right: -10px;
     padding: 10px;
     font-size: 25px;
     color: #EA9632;
