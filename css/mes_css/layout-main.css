@@ -24,12 +24,13 @@ html * {
 body {
     background-color: #242424;
     margin: 0;
-    max-width: 1920px;
+    max-width: 375px;
     overflow-x: hidden;
 }
 
-header > .logo, header > h1 {
+header > .logo, header > h1, header > p {
     margin: 10px 0 0 0;
+    padding-left: 10px;
 }
 
 header > h1 {
@@ -69,10 +70,10 @@ main p {
 
 .bouton-sobre {
     display: block;
-    margin-left: 190px;
+    margin-left: 195px;
     margin-right: -10px;
     padding: 10px;
-    font-size: 25px;
+    font-size: 18px;
     color: #EA9632;
     border-bottom: #EEE 2px solid;
 }
@@ -176,4 +177,8 @@ form input[type="submit"] {
 
 .association-form {
     width: 30vw;
+}
+
+.profil_pic {
+    margin: 10px 0 0 10px;
 }
