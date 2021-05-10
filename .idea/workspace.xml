@@ -21,9 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mes_css/layout-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <workItem from="1617279615173" duration="74000" />
       <workItem from="1619874549605" duration="21408000" />
       <workItem from="1619896875714" duration="150000" />
-      <workItem from="1620629089572" duration="839000" />
+      <workItem from="1620629089572" duration="1252000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit AlterinGames (main site)">
       <created>1617212772850</created>
@@ -260,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619896731527</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix décalage footer et contenu main">
+      <created>1620629959078</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1620629959078</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +307,8 @@
     <MESSAGE value="retirer les photos qui ne sont pas utilisé pour le site mobile" />
     <MESSAGE value="fix typo &quot;j'y accède&quot;" />
     <MESSAGE value="utilisation des bons liens internes" />
-    <option name="LAST_COMMIT_MESSAGE" value="utilisation des bons liens internes" />
+    <MESSAGE value="fix décalage footer et contenu main" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix décalage footer et contenu main" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619890300107">
