@@ -26,4 +26,15 @@
     flex: 1 0 14rem;
     margin-right: 1rem;
     scroll-snap-align: center;
+    position: relative;
+}
+
+.nom-jeu {
+    position: absolute;
+    background-color: rgba(50,50,50,.5);
+    font-size: 20px;
+    margin-top: -225px;
+    width: 140px;
+    text-align: center;
+    padding: 90px 0;
 }
