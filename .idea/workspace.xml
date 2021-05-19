@@ -20,19 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/games-blackjack.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games-cluedo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games-la-bonne-paye.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games-loups-garous.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games-monopoly.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games-poker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games-qui-est-ce.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games-risk.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games-scrabble.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games-sept-familles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games-uno.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exemple-page-jeu.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-bataille.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemple-page-regle.html" beforeDir="false" afterPath="$PROJECT_DIR$/0-TODO-rules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-bataille.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-bataille.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-blackjack.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-blackjack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-cluedo.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-cluedo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-la-bonne-paye.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-la-bonne-paye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-loups-garous.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-loups-garous.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-monopoly.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-monopoly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-poker.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-poker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-qui-est-ce.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-qui-est-ce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-risk.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-risk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-scrabble.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-scrabble.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-sept-familles.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-sept-familles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games-uno.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-uno.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -88,6 +89,7 @@
       <workItem from="1620629089572" duration="2166000" />
       <workItem from="1621058656141" duration="1813000" />
       <workItem from="1621068492383" duration="3016000" />
+      <workItem from="1621452096663" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit AlterinGames (main site)">
       <created>1617212772850</created>
@@ -292,7 +294,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621449434451</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="création pages de jeux">
+      <created>1621450651964</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1621450651964</updated>
+    </task>
+    <task id="LOCAL-00031" summary="maillage interne, lien vers les pages de jeux">
+      <created>1621450826006</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1621450826006</updated>
+    </task>
+    <task id="LOCAL-00032" summary="liens règles de jeu officielles en .pdf externes">
+      <created>1621452275359</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1621452275359</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,8 +334,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit AlterinGames (main site)" />
-    <MESSAGE value="index : contenus + css&#10;menu : contenu + css" />
     <MESSAGE value="séparation feuilles de style" />
     <MESSAGE value="jeux-societe.html + css associé&#10;carrousel.css" />
     <MESSAGE value="jeux-cartes.html + css associé" />
@@ -335,7 +356,10 @@
     <MESSAGE value="fix décalage footer et contenu main" />
     <MESSAGE value="fix décalage menu" />
     <MESSAGE value="mise en page contact.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="mise en page contact.html" />
+    <MESSAGE value="création pages de jeux" />
+    <MESSAGE value="maillage interne, lien vers les pages de jeux" />
+    <MESSAGE value="liens règles de jeu officielles en .pdf externes" />
+    <option name="LAST_COMMIT_MESSAGE" value="liens règles de jeu officielles en .pdf externes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619890300107">
