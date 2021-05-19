@@ -1,4 +1,4 @@
-.index header > h1 {
+header > h1 {
     padding-right: 5.8%;
     line-height: 40px;
     text-align: right;
@@ -8,7 +8,7 @@
     margin: 10px 0 0 auto;
 }
 
-.index .logo {
+.logo {
     width: 350px;
     margin-left: auto;
     margin-right: auto;

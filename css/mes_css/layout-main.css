@@ -182,3 +182,86 @@ form input[type="submit"] {
 .profil_pic {
     margin: 10px 0 0 10px;
 }
+
+
+/* CSS PAGE CONTACT */
+
+.contact > header > h1:first-of-type {
+    margin-bottom: 100px;
+}
+
+.equipe img:not(.instagram-icon) {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.equipe .membre {
+    display: block;
+    position: relative;
+    width: 350px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.membre p:first-of-type {
+    position: absolute;
+    margin-left: 125px;
+    top: 35px;
+    border-bottom: 1px solid white;
+    padding-right: 25px;
+    padding-bottom: 4px;
+}
+
+.membre p:last-of-type {
+    position: absolute;
+    margin-left: 125px;
+    top: 70px;
+}
+
+.instagram-icon {
+    display: inline;
+    height: 20px;
+    width: 20px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.contact h3 {
+    font-size: 20px;
+    margin-top: 75px;
+}
+
+.contact > main > p:first-of-type {
+    font-size: 20px;
+    text-align: right;
+}
+
+.contact form {
+    border-left: white 1px solid;
+    padding-left: 20px;
+}
+
+.contact form > * {
+    background: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    border: none;
+    padding-bottom: 10px;
+}
+
+.contact form > input:not(input[type="submit"]) {
+    border-bottom: #EA9632 1px solid;
+    width: 300px;
+}
+
+.contact form > input[type="submit"] {
+    background-color: #EA9632;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 50px auto;
+    padding: 15px;
+    width: 150px;
+}
