@@ -19,39 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/image_bonnepaye.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-bataille.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-bataille.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-blackjack.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-blackjack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-cluedo.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-cluedo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-la-bonne-paye.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-la-bonne-paye.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-loups-garous.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-loups-garous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-monopoly.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-monopoly.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-qui-est-ce.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-qui-est-ce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-risk.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-risk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-scrabble.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-scrabble.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-sept-familles.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-sept-familles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-uno.html" beforeDir="false" afterPath="$PROJECT_DIR$/games-uno.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-doublons.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-doublons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-pertes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-pertes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/cluedo-passepartout.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/cluedo-passepartout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/cluedo-un-tueur-parmi-nous.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/cluedo-un-tueur-parmi-nous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/loups-garous-faiseur-de-roi.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/loups-garous-faiseur-de-roi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-banqueroute.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-banqueroute.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-debuts-difficiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-debuts-difficiles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-joueurs-fantomes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-joueurs-fantomes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/qui-est-ce-qui-est-ce-vraiment.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/qui-est-ce-qui-est-ce-vraiment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/risk-tres-riske.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/risk-tres-riske.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-anagrammes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-anagrammes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-face-a-soi-meme.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-face-a-soi-meme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-mr-worldwide.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-mr-worldwide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/sept-familles-4-familles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/sept-familles-4-familles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-eliminations.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-eliminations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-equipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-equipes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-face-a-tous.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-face-a-tous.html" afterDir="false" />
-    </list>
+    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +76,7 @@
       <workItem from="1621058656141" duration="1813000" />
       <workItem from="1621068492383" duration="3016000" />
       <workItem from="1621452096663" duration="1257000" />
-      <workItem from="1621527818677" duration="4358000" />
+      <workItem from="1621527818677" duration="4756000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit AlterinGames (main site)">
       <created>1617212772850</created>
@@ -369,7 +337,28 @@
       <option name="project" value="LOCAL" />
       <updated>1621531941892</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="fix images des jeux">
+      <created>1621532328155</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1621532328155</updated>
+    </task>
+    <task id="LOCAL-00039" summary="enlever les commentaires dans le titres des pages de jeu">
+      <created>1621532412451</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1621532412451</updated>
+    </task>
+    <task id="LOCAL-00040" summary="maillage interne menant aux règles alternatives">
+      <created>1621532678844</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1621532678844</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,9 +377,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="exemple d'une page de jeu (ici, poker)" />
-    <MESSAGE value="exemple d'une page de règle (ici, poker)" />
-    <MESSAGE value="création des pages html qui manquaient (vides) + renommage fichier &amp; classes en anglais" />
     <MESSAGE value="contenu html, pages premium" />
     <MESSAGE value="contenu html de login, register, access-profile" />
     <MESSAGE value="structure tools.html" />
@@ -413,7 +399,10 @@
     <MESSAGE value="ajout fichier .pdf" />
     <MESSAGE value="pages TODO" />
     <MESSAGE value="pages de règles alternatives" />
-    <option name="LAST_COMMIT_MESSAGE" value="pages de règles alternatives" />
+    <MESSAGE value="fix images des jeux" />
+    <MESSAGE value="enlever les commentaires dans le titres des pages de jeu" />
+    <MESSAGE value="maillage interne menant aux règles alternatives" />
+    <option name="LAST_COMMIT_MESSAGE" value="maillage interne menant aux règles alternatives" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619890300107">
