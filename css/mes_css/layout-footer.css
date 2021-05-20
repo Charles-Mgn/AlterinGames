@@ -1,29 +1,29 @@
 footer {
     color: #242424;
     background: url("../../img/background-footer-phone.png") 50% 20%;
-    padding: 20px;
-    margin: 70px 0 0;
+    padding: 2rem;
+    margin: 7rem 0 0;
 }
 
 footer .mentions {
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 
 footer .mentions p {
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 footer > .footer_links {
-    padding-top: 10px;
-    font-size: 14px;
-    border-top: #242424 1px solid;
+    padding-top: 1rem;
+    font-size: 1.4rem;
+    border-top: #242424 .1rem solid;
     position: relative;
-    height: 30px;
+    height: 3rem;
 }
 
 footer > .footer_links > a {
     display: inline-block;
-    padding: 0 15px 3px 15px;
+    padding: 0 1.5rem .3rem 1.5rem;
     color: #242424;
 }
 
@@ -39,6 +39,6 @@ footer > .footer_links > a:nth-of-type(2) {
 
 footer > .footer_links > a:last-of-type {
     position: absolute;
-    left: 23px;
-    top: 27px;
+    left: 2.3rem;
+    top: 2.7rem;
 }

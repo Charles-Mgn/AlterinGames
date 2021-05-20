@@ -31,7 +31,7 @@
 .menu {
     background-color: #242424;
     position: fixed;
-    width: 375px;
+    width: 37.5rem;
     top: 0;
     left: 0;
     bottom: 0;
@@ -62,10 +62,10 @@
     opacity: 0;
     transition: all .5s ease;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 2.5rem;
     text-align: center;
-    padding: 0 0 20px;
-    line-height: 25px;
+    padding: 0 0 2rem;
+    line-height: 2.5rem;
 }
 
 .menu li:after {
@@ -84,21 +84,21 @@
 .menu h1 {
     font-family: Britannic;
     padding-right: 5.8%;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 3rem;
+    line-height: 4rem;
     text-transform: uppercase;
     text-align: right;
-    border-right: #FFFFFF 1px solid;
+    border-right: #FFFFFF .1rem solid;
     display: inline-block;
     width: 60%;
-    margin-left: 15px;
+    margin-left: 1.5rem;
 }
 
 .menu img {
-    width: 55px;
+    width: 5.5rem;
     height: auto;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 
 .menu-open .menu li {

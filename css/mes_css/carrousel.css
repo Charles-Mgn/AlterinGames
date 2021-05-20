@@ -5,7 +5,7 @@
 
 .carrousel h2 {
     margin: 0;
-    padding: 20px 10px 10px;
+    padding: 2rem 1rem 1rem;
 }
 
 .carrousel ul {
@@ -32,9 +32,9 @@
 .nom-jeu {
     position: absolute;
     background-color: rgba(50,50,50,.5);
-    font-size: 20px;
-    margin-top: -225px;
-    width: 140px;
+    font-size: 2rem;
+    margin-top: -22.5rem;
+    width: 14rem;
     text-align: center;
-    padding: 90px 0;
+    padding: 9rem 0;
 }
