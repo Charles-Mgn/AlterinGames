@@ -85,7 +85,6 @@ h2 {
 h4 {
     font-size: 18px;
     padding-top: 30px;
-    padding-left: 10px;
 }
 
 ul {
@@ -302,4 +301,8 @@ form input[type="submit"] {
     width: 30px;
     height: auto;
     margin-bottom: -5px;
+}
+
+.page-rules > h4 {
+    padding-left: 10px;
 }
