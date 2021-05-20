@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/mes_css/carrousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/carrousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-secondary.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-secondary.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/menu.css" afterDir="false" />
-    </list>
+    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +76,7 @@
       <workItem from="1621058656141" duration="1813000" />
       <workItem from="1621068492383" duration="3016000" />
       <workItem from="1621452096663" duration="1257000" />
-      <workItem from="1621527818677" duration="5391000" />
+      <workItem from="1621527818677" duration="5467000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit AlterinGames (main site)">
       <created>1617212772850</created>
@@ -379,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621533140733</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="convertir toutes les unités &quot;px&quot; en &quot;rem&quot;">
+      <created>1621533390929</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1621533390929</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +398,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="contenu html de login, register, access-profile" />
     <MESSAGE value="structure tools.html" />
     <MESSAGE value="contenu html settings.html" />
     <MESSAGE value="contenu html profil" />
@@ -423,7 +422,8 @@
     <MESSAGE value="enlever les commentaires dans le titres des pages de jeu" />
     <MESSAGE value="maillage interne menant aux règles alternatives" />
     <MESSAGE value="fix décalage h4 pages règles alternatives" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix décalage h4 pages règles alternatives" />
+    <MESSAGE value="convertir toutes les unités &quot;px&quot; en &quot;rem&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="convertir toutes les unités &quot;px&quot; en &quot;rem&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619890300107">
@@ -438,9 +438,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1150" y="618" key="Github.ShareDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1617212870189" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1621532913380">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1621533394434">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1621532913380" />
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1621533394434" />
   </component>
 </project>
