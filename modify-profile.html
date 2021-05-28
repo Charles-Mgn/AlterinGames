@@ -12,7 +12,7 @@
     <title>Modifiez votre profil | AlterinGames</title>
 </head>
 
-<body>
+<body class="modify-profil">
 <header>
     <img src="img/image_settings.png" alt="" class="img_head">
     <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="logo claire">
@@ -38,7 +38,14 @@
 </header>
 
 <main>
-    <img src="img/image_profil_pic.png" alt=""><img src="img/image_profil_background.png" alt="">
+    <div class="modify-icon">
+        <img src="img/image_profil_pic.png" alt="photo de profil" class="profil_pic-modify">
+        <p class="text-modify">Modifier</p>
+    </div>
+    <div class="modify-icon">
+        <img src="img/image_profil_background.png" alt="bannière" class="profil_banner-modify">
+        <p class="text-modify">Modifier</p>
+    </div>
     <form>
         <label>Pseudo</label>
         <input type="text">
@@ -50,6 +57,7 @@
         <input type="password">
         <input type="submit" value="Enregistrer">
     </form>
+    <button>Supprimer le profil</button>
 </main>
 
 <footer>

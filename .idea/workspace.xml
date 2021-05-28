@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="" />
+    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0-TODO-contribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/0-TODO-contribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modify-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/modify-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,15 +55,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PHP Storm Projects\AlterinGames\rules" />
       <recent name="C:\PHP Storm Projects\AlterinGames" />
+      <recent name="C:\PHP Storm Projects\AlterinGames\rules" />
       <recent name="C:\PHP Storm Projects\AlterinGames\css\mes_css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PHP Storm Projects\AlterinGames/games" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,6 +86,9 @@
       <workItem from="1621068492383" duration="3016000" />
       <workItem from="1621452096663" duration="1257000" />
       <workItem from="1621527818677" duration="5467000" />
+      <workItem from="1621533468027" duration="509000" />
+      <workItem from="1621799499717" duration="21000" />
+      <workItem from="1622219241534" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit AlterinGames (main site)">
       <created>1617212772850</created>
@@ -379,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621533390929</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="déplacer tous les jeux dans un dossier &quot;games&quot;">
+      <created>1621533704024</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1621533704024</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +417,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="structure tools.html" />
     <MESSAGE value="contenu html settings.html" />
     <MESSAGE value="contenu html profil" />
     <MESSAGE value="contenu html modify-profile.html" />
@@ -423,24 +441,25 @@
     <MESSAGE value="maillage interne menant aux règles alternatives" />
     <MESSAGE value="fix décalage h4 pages règles alternatives" />
     <MESSAGE value="convertir toutes les unités &quot;px&quot; en &quot;rem&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="convertir toutes les unités &quot;px&quot; en &quot;rem&quot;" />
+    <MESSAGE value="déplacer tous les jeux dans un dossier &quot;games&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="déplacer tous les jeux dans un dossier &quot;games&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619890300107">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1619890300107" />
-    <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1617279688201">
+    <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1621799514980">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1060" y="461" key="FileChooserDialogImpl/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1617279688201" />
+    <state x="1060" y="461" key="FileChooserDialogImpl/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1621799514980" />
     <state x="1150" y="618" key="Github.ShareDialog" timestamp="1617212870189">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1150" y="618" key="Github.ShareDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1617212870189" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1621533394434">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1621533722615">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1621533394434" />
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1621533722615" />
   </component>
 </project>

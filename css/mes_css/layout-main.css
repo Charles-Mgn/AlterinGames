@@ -238,12 +238,12 @@ form input[type="submit"] {
     text-align: right;
 }
 
-.contact form {
+.contact form, .modify-profil form {
     border-left: white .1rem solid;
     padding-left: 2rem;
 }
 
-.contact form > * {
+.contact form > *, .modify-profil form > * {
     background: none;
     font-size: 1.5rem;
     color: white;
@@ -252,17 +252,17 @@ form input[type="submit"] {
     padding-bottom: 1rem;
 }
 
-.contact form > input:not(input[type="submit"]) {
+.contact form > input:not(input[type="submit"]), .modify-profil form > input:not(input[type="submit"]) {
     border-bottom: #EA9632 .1rem solid;
     width: 30rem;
 }
 
-.contact form > input[type="submit"] {
+.contact form > input[type="submit"], .modify-profil form > input[type="submit"] {
     background-color: #EA9632;
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     margin: 5rem auto;
-    padding: 1.5rem;
+    padding: 1.5rem .7rem;
     width: 15rem;
 }
 
@@ -305,4 +305,48 @@ form input[type="submit"] {
 
 .page-rules > h4 {
     padding-left: 1rem;
+}
+
+/* CSS PAGE SETTINGS */
+.settings main {
+    font-size: 1.7rem;
+}
+
+.settings-option {
+    margin: 10px 0 30px 10px;
+    padding: 0;
+}
+
+.settings-option:first-of-type {
+    margin-top: 50px;
+}
+
+/* CSS PAGE MODIFY PROFIL */
+.profil_pic-modify, .profil_banner-modify {
+    display: inline;
+    width: 7.5rem;
+    height: 7.5rem;
+    object-fit: none;
+    object-position: 45% 53%;
+    position: relative;
+}
+
+.text-modify {
+    position: absolute;
+    background-color: rgba(50,50,50,.5);
+    font-size: 1.4rem;
+    margin-top: -7.7rem;
+    width: 7.5rem;
+    text-align: center;
+    padding: 2.7rem 0;
+}
+
+.modify-icon {
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.modify-icon:first-of-type {
+    width: unset;
+    display: inline-block;
 }
