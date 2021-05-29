@@ -359,6 +359,7 @@ form input[type="submit"] {
     padding: 2.7rem 0;
 }
 
+/* CSS PAGE PROFIL */
 .modify-icon {
     display: inline-block;
     margin-top: 2rem;
@@ -367,4 +368,12 @@ form input[type="submit"] {
 .modify-icon:first-of-type {
     width: unset;
     display: inline-block;
+}
+
+#badges img {
+    height: 5rem;
+}
+
+#badges * {
+    display: inline;
 }
