@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/menu.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <workItem from="1621533468027" duration="509000" />
       <workItem from="1621799499717" duration="21000" />
       <workItem from="1622219241534" duration="3279000" />
-      <workItem from="1622305888687" duration="2354000" />
+      <workItem from="1622305888687" duration="3237000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit AlterinGames (main site)">
       <created>1617212772850</created>
@@ -405,7 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622221940559</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="fix css page d'accueil">
+      <created>1622308300767</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1622308300767</updated>
+    </task>
+    <task id="LOCAL-00047" summary="&quot;contact&quot; retiré du menu">
+      <created>1622308523010</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1622308523010</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,8 +436,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="contenu html profil" />
-    <MESSAGE value="contenu html modify-profile.html" />
     <MESSAGE value="contenu html contact.html" />
     <MESSAGE value="modification des images intégrées" />
     <MESSAGE value="retirer les photos qui ne sont pas utilisé pour le site mobile" />
@@ -449,7 +459,9 @@
     <MESSAGE value="convertir toutes les unités &quot;px&quot; en &quot;rem&quot;" />
     <MESSAGE value="déplacer tous les jeux dans un dossier &quot;games&quot;" />
     <MESSAGE value="html + css pages settings.html, modify-profile.html, contribute.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="html + css pages settings.html, modify-profile.html, contribute.html" />
+    <MESSAGE value="fix css page d'accueil" />
+    <MESSAGE value="&quot;contact&quot; retiré du menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;contact&quot; retiré du menu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619890300107">

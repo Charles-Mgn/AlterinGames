@@ -77,8 +77,13 @@
 }
 
 .menu ul {
-    margin-top: 9rem;
-    margin-bottom: 7rem;
+    border-width: 3px;
+    border-style: solid;
+    border-image: url("../../img/menu-border.png") 4;
+    width: 90%;
+    display: block;
+    margin: 9rem auto 7rem;
+    padding-top: 1.5rem;
 }
 
 .menu h1 {
@@ -88,17 +93,18 @@
     line-height: 4rem;
     text-transform: uppercase;
     text-align: right;
-    border-right: #FFFFFF .1rem solid;
     display: inline-block;
     width: 60%;
     margin-left: 1.5rem;
 }
 
 .menu img {
-    width: 5.5rem;
+    width: 9rem;
     height: auto;
     display: inline-block;
-    margin-left: 1rem;
+    padding-left: 1.5rem;
+    margin-bottom: -2rem;
+    border-left: #FFFFFF .1rem solid;
 }
 
 .menu-open .menu li {
