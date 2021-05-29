@@ -26,6 +26,7 @@ header > h1 {
 
 header > h1 {
     border-top: #FFFFFF .2rem solid;
+    padding: 2.5rem 2rem 2.5rem 1rem;
 }
 
 .catch-phrase {
@@ -33,7 +34,7 @@ header > h1 {
     line-height: 2.2rem;
     display: block;
     width: 90%;
-    padding: 5rem 1rem 1rem 1rem;
+    padding: 5rem 1rem 5rem 2rem;
 }
 
 .index main .button {
@@ -54,7 +55,7 @@ header > h1 {
 .index .button > p {
     font-size: 1.6rem;
     padding: 1rem 1rem .5rem 1rem;
-    margin: 1.2rem 0 .8rem;
+    margin: 1.2rem 0 0;
 }
 
 a.boardgames-square-link {

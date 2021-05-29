@@ -65,17 +65,18 @@ main {
 
 main p {
     font-size: 1.5rem;
-    line-height: 2.2rem;
+    line-height: 2.7rem;
 }
 
 .bouton-sobre {
     display: block;
     margin-left: 19.5rem;
-    margin-right: -1rem;
-    padding: 1rem;
+    padding: 1rem .5rem 1rem 1.5rem;
     font-size: 1.8rem;
     color: #EA9632;
-    border-bottom: #EEE .2rem solid;
+    border-width: 1px;
+    border-style: solid;
+    border-image: url("../../img/button-border.png") 1;
 }
 
 h2 {

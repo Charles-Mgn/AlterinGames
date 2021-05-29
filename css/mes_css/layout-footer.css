@@ -1,8 +1,10 @@
 footer {
     color: #242424;
-    background: url("../../img/background-footer-phone.png") 50% 20%;
+    background: url("../../img/background-footer-phone.png") 48% 40%;
     padding: 2rem;
     margin: 7rem 0 0;
+    font-family: Calibri, sans-serif;
+    height: 30rem;
 }
 
 footer .mentions {
@@ -10,20 +12,31 @@ footer .mentions {
 }
 
 footer .mentions p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 footer > .footer_links {
     padding-top: 1rem;
-    font-size: 1.4rem;
-    border-top: #242424 .1rem solid;
+    font-size: 1.8rem;
     position: relative;
     height: 3rem;
 }
 
+footer > .footer_links:before {
+    content: "";
+    width: 20rem;
+    height: 1px;
+    background-color: #242424;
+    left: calc(50% - 10rem);
+    position: relative;
+    display: block;
+    top: -10px;
+    margin: 1.3rem 0;
+}
+
 footer > .footer_links > a {
     display: inline-block;
-    padding: 0 1.5rem .3rem 1.5rem;
+    padding: 0 1.5rem .8rem 1.5rem;
     color: #242424;
 }
 
@@ -39,6 +52,6 @@ footer > .footer_links > a:nth-of-type(2) {
 
 footer > .footer_links > a:last-of-type {
     position: absolute;
-    left: 2.3rem;
-    top: 2.7rem;
+    left: 3rem;
+    top: 6.7rem;
 }
