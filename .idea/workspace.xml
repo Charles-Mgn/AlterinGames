@@ -20,16 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/mes_css/layout-forms.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buy-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/buy-premium.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modify-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/modify-profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/why-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/why-premium.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,14 +85,7 @@
       <workItem from="1621533468027" duration="509000" />
       <workItem from="1621799499717" duration="21000" />
       <workItem from="1622219241534" duration="3279000" />
-      <workItem from="1622305888687" duration="10919000" />
-    </task>
-    <task id="LOCAL-00003" summary="séparation feuilles de style">
-      <created>1619884079349</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1619884079349</updated>
+      <workItem from="1622305888687" duration="11501000" />
     </task>
     <task id="LOCAL-00004" summary="jeux-societe.html + css associé&#10;carrousel.css">
       <created>1619886232197</created>
@@ -439,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622313741107</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="css sur les forms">
+      <created>1622317238659</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1622317238659</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +449,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="utilisation des bons liens internes" />
     <MESSAGE value="fix décalage footer et contenu main" />
     <MESSAGE value="fix décalage menu" />
     <MESSAGE value="mise en page contact.html" />
@@ -483,7 +473,8 @@
     <MESSAGE value="fix css boutons" />
     <MESSAGE value="fix images qui créaient un overflow qui faisait apparaitre le menu lors des drags horizontaux" />
     <MESSAGE value="ajout attributs alt sur les images" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout attributs alt sur les images" />
+    <MESSAGE value="css sur les forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="css sur les forms" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619890300107">
@@ -498,9 +489,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1150" y="618" key="Github.ShareDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1617212870189" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1622313753949">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1622317244412">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622313753949" />
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622317244412" />
   </component>
 </project>
