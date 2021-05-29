@@ -79,6 +79,23 @@ main p {
     border-image: url("../../img/button-border.png") 1;
 }
 
+.bouton-list {
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+.bouton-contribue {
+    margin-left: 10rem;
+    margin-top: 5rem;
+    width: 18rem;
+}
+
+.bouton-return {
+    margin-top: 3rem;
+    margin-left: 25rem;
+    margin-right: 3rem;
+}
+
 h2 {
     font-size: 2.2rem;
 }

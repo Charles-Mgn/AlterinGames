@@ -39,6 +39,7 @@
     transform: translateX(100vw);
     transition: all .6s;
     z-index: 1;
+    height: 812px;
 }
 
 .menu-open .menu {

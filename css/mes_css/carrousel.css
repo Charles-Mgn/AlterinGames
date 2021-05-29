@@ -36,5 +36,9 @@
     margin-top: -22.5rem;
     width: 14rem;
     text-align: center;
-    padding: 9rem 0;
+    padding: 8.7rem 0;
+}
+
+.nom-jeu.nom-jeu-multi-line {
+    padding: 7.4rem 0;
 }
