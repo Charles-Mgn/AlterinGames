@@ -16,8 +16,8 @@ header > h1 {
     position: absolute;
     animation: none;
     top: -10vw;
-    right: -40vw;
-    width: 75vw;
+    right: 0;
+    width: 40vw;
     height: auto;
     z-index: -1;
 }
