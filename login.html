@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" class="menu-open">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/mes_css/layout-secondary.css">
     <link rel="stylesheet" href="css/mes_css/layout-footer.css">
     <link rel="stylesheet" href="css/mes_css/menu.css">
+    <link rel="stylesheet" href="css/mes_css/layout-forms.css">
 
     <title>Connexion | AlterinGames</title>
 </head>
@@ -19,17 +20,30 @@
         <div class="nav-toggle-bar"></div>
     </div>
     <nav class="menu">
-        <form>
+        <ul>
+            <li class="menu-lien-principal"><a href="index.html">Accueil</a></li>
+            <li class="menu-lien-principal"><a href="board-games.html">Jeux de société</a></li>
+            <li class="menu-lien-principal"><a href="card-games.html">Jeux de cartes</a></li>
+            <li class="menu-lien-principal"><a href="tools.html">Outils</a></li>
+            <li class="menu-lien-secondaire"><a href="profile.html">Profil</a></li>
+            <li class="menu-lien-secondaire"><a href="settings.html">Paramètres</a></li>
+        </ul>
+        <h1>prenez le contrôle des règles</h1>
+        <img src="img/logo_menu.png" alt="Logo AlterinGames: Alter the rules" class="claire">
+    </nav>
+</header>
+
+<main class="form-page">
+    <h1>Connectez-vous à AlterinGames</h1>
+        <form id="form-login">
             <label>Pseudo</label>
             <input type="text" required>
             <label>Mot de passe</label>
             <input type="password" required>
             <input type="submit" value="Connexion">
         </form>
-    </nav>
-</header>
-
-<main>
+    <p>Pas encore de compte ? Venez en créer un afin de partager et de voter pour vos règles alternatives favorites !</p>
+    <a href="register.html" class="bouton-sobre bouton-list"> Je me créé un compte</a>
 </main>
 </body>
 </html>

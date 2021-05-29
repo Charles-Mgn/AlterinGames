@@ -1,0 +1,98 @@
+form {
+    border-left: white .1rem solid;
+    padding-left: 2rem;
+}
+
+form#form-login {
+    height: 20rem;
+}
+
+form#form-register {
+    height: 34.5rem;
+}
+
+form#form-contact {
+    height: 26rem;
+    margin-bottom: 12rem;
+}
+
+form#form-premium {
+    height: 52rem;
+    margin-top: 5rem;
+    margin-bottom: 12rem;
+}
+
+form#form-premium input:first-of-type {
+    width: 20rem;
+}
+
+form#form-premium input:nth-of-type(2) {
+    width: 24rem;
+}
+
+form#form-modify-profile {
+    height: 35rem;
+    margin-bottom: 14rem;
+}
+
+form > * {
+    background: none;
+    font-size: 1.5rem;
+    color: white;
+    display: block;
+    border: none;
+    padding-bottom: 1rem;
+}
+
+form > input:not(input[type="submit"]) {
+    border-bottom: #EA9632 .1rem solid;
+    width: 30rem;
+}
+
+form > input[type="submit"] {
+    right: 0;
+    text-align: center;
+    background-color: #EA9632;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 5rem 0 5rem 9rem;
+    padding: 1.5rem .7rem;
+    width: 15rem;
+}
+
+form#form-register > input[type="submit"] {
+    width: 20rem;
+    margin-left: 5.5rem;
+}
+
+form#form-premium > input[type="submit"] {
+    width: 33rem;
+    margin-left: -1rem;
+    font-size: 1.7rem;
+}
+
+form#form-contact > input[type="submit"] {
+    margin-left: 7.7rem;
+}
+
+form label {
+    padding-top: 1rem;
+}
+
+form input {
+    margin-bottom: 1rem;
+    width: 40.7vw;
+    padding-top: 1rem;
+}
+
+.form-page > h1 {
+    margin-top: 7rem;
+}
+
+.form-page > form {
+    margin-top: 6rem;
+}
+
+.form-page > p {
+    margin-top: 16rem;
+}
