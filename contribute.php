@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/mes_css/layout-secondary.css">
     <link rel="stylesheet" href="css/mes_css/layout-footer.css">
     <link rel="stylesheet" href="css/mes_css/menu.css">
+    <link rel="stylesheet" href="css/mes_css/layout-forms.css">
 
     <title>Je contribue | AlterinGames</title>
 </head>
@@ -23,24 +24,9 @@
 <header>
     <img src="img/image_profil_background.png" alt="photo de profil" class="img_head">
     <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="logo claire">
-    <h1>
-        <select>
-            <option value="">Bataille</option>
-            <option value="">Cluedo</option>
-            <option value="">Loups-garous</option>
-            <option value="">Monopoly</option>
-            <option value="">Poker</option>
-            <option value="">Qui-est ce ?</option>
-            <option value="">Risk</option>
-            <option value="">Scrabble</option>
-            <option value="">7 Familles</option>
-            <option value="">UNO</option>
-        </select>
-    </h1>
-    <h2>
-        <input type="text">
-    </h2>
 
+    <h1>Postez une règle</h1>
+    <h2> </h2>
     <!--MENU-->
     <div class="nav-toggle" onclick='document.documentElement.classList.toggle("menu-open")'>
         <div class="nav-toggle-bar"></div>
@@ -60,15 +46,36 @@
 </header>
 
 <main>
-    <img src="img/image_profil_pic.png" alt="photo de profil">
-    <p><!--LE CREATEUR-->LUC_K</p>
+    <div>
+        <p>Que nous proposez-vous aujourd'hui ?</p>
+    </div>
 
-    <p>Que nous proposez-vous aujourd'hui ?</p>
-    <input type="text">
+    <form id="form-contribute"  action="backend/AlterinGames_backend/createAltrules.php" method="post">
 
-    <input type="submit">
+    <h1>
+        <select required name="game">
+            <option value="Bataille">Bataille</option>
+            <option value="Cluedo">Cluedo</option>
+            <option value="Loups-garous">Loups-garous</option>
+            <option value="Monopoly">Monopoly</option>
+            <option value="Poker">Poker</option>
+            <option value="Qui-est ce ?">Qui-est ce ?</option>
+            <option value="Risk">Risk</option>
+            <option value="Scrabble">Scrabble</option>
+            <option value="7 Familles">7 Familles</option>
+            <option value="UNO">UNO</option>
+        </select>
+    </h1>
 
-    <a href="games/poker.html" class="bouton-sobre">Retour</a>
+    <h2>
+        <input type="text" placeholder="Nom de votre règle" name="alt_name" required>
+    </h2>
+
+    <textarea cols="35" rows="10" name="alt_desc" required placeholder="Décrivez votre règle" maxlength="2000"></textarea>
+    <input type="submit" value="Partagez" class="final-submit">
+    </form>
+
+    <a href="games/poker.html" class="bouton-sobre bouton-return">Retour</a>
 </main>
 
 <footer>

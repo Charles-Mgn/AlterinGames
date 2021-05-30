@@ -22,6 +22,11 @@ form#form-premium {
     margin-bottom: 12rem;
 }
 
+form#form-contribute {
+    height: 32rem;
+    margin-bottom: 12rem;
+}
+
 form#form-premium input:first-of-type {
     width: 20rem;
 }
@@ -95,4 +100,51 @@ form input {
 
 .form-page > p {
     margin-top: 16rem;
+}
+
+#form-contribute select {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: Britannic;
+    font-size: 2.7rem;
+}
+
+#form-contribute option {
+    color: black;
+}
+
+#form-contribute input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: "Noto Mono";
+    font-size: 1.7rem;
+}
+
+#form-contribute .final-submit {
+    border: none;
+    background-color: #EA9632;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 4rem 0 3rem 9rem;
+}
+
+#form-contribute textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    display: block;
+    font-size: 1.4rem;
+}
+
+#form-contribute h1, #form-contribute h2 {
+    padding-left: 0;
+}
+
+#form-contribute h2 input {
+    width: unset;
 }
