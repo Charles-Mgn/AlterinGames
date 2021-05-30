@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if (!isset($_SESSION['login'])) {
+        $_SESSION['msg'] = "Vous devez vous connectez afin de poster vos règles";
+        header('location: login.html');
+    }
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -44,7 +51,7 @@
             <li class="menu-lien-principal"><a href="board-games.html">Jeux de société</a></li>
             <li class="menu-lien-principal"><a href="card-games.html">Jeux de cartes</a></li>
             <li class="menu-lien-principal"><a href="tools.html">Outils</a></li>
-            <li class="menu-lien-secondaire"><a href="profile.html">Profil</a></li>
+            <li class="menu-lien-secondaire"><a href="profile.php">Profil</a></li>
             <li class="menu-lien-secondaire"><a href="settings.html">Paramètres</a></li>
         </ul>
         <h1>prenez le contrôle des règles</h1>

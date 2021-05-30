@@ -25,7 +25,7 @@
             <li class="menu-lien-principal"><a href="board-games.html">Jeux de société</a></li>
             <li class="menu-lien-principal"><a href="card-games.html">Jeux de cartes</a></li>
             <li class="menu-lien-principal"><a href="tools.html">Outils</a></li>
-            <li class="menu-lien-secondaire"><a href="profile.html">Profil</a></li>
+            <li class="menu-lien-secondaire"><a href="profile.php">Profil</a></li>
             <li class="menu-lien-secondaire"><a href="settings.html">Paramètres</a></li>
         </ul>
         <h1>prenez le contrôle des règles</h1>
@@ -35,11 +35,11 @@
 
 <main class="form-page">
     <h1>Connectez-vous à AlterinGames</h1>
-        <form id="form-login">
+        <form id="form-login" action="backend/AlterinGames_backend/cnxUsers.php" method="post">
             <label>Pseudo</label>
-            <input type="text" required>
+            <input type="text" name="login" required>
             <label>Mot de passe</label>
-            <input type="password" required>
+            <input type="password" name="password" required>
             <input type="submit" value="Connexion">
         </form>
     <p>Pas encore de compte ? Venez en créer un afin de partager et de voter pour vos règles alternatives favorites !</p>

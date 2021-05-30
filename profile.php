@@ -1,3 +1,18 @@
+<?php
+
+// Starting the session, to use and
+// store data in session variable
+session_start();
+
+// If the session variable is empty, this
+// means the user is yet to login
+// User will be sent to 'login.php' page
+// to allow the user to login
+if (!isset($_SESSION['login'])) {
+    $_SESSION['msg'] = "Vous devez vous connecter pour accéder à votre profil";
+    header('location: login.html');
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,6 +25,7 @@
     <link rel="stylesheet" href="css/mes_css/menu.css">
 
     <title>Profil | AlterinGames</title>
+
 </head>
 
 <body>
@@ -17,7 +33,11 @@
     <img src="img/image_profil_background.png" alt="bannière" class="img_head">
     <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="logo claire">
     <img src="img/image_profil_pic.png" alt="photo de profil" class="profil_pic">
-    <h1><!--NOM UTILISATEUR-->LUC_K</h1>
+    <?php  if (isset($_SESSION['login'])) : ?>
+        <h1>
+            <?php echo $_SESSION['login']; ?>
+        </h1>
+    <?php endif ?>
     <p>17<!--NB ALTERS--> Alters</p>
 
     <!--MENU-->

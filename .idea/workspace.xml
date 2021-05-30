@@ -20,7 +20,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-game-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-game-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-games.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buy-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/buy-premium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-games-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-games.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/contribute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/bataille.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/bataille.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/blackjack.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/blackjack.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/cluedo.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/cluedo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/la-bonne-paye.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/la-bonne-paye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/loups-garous.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/loups-garous.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/monopoly.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/monopoly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/poker.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/poker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/qui-est-ce.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/qui-est-ce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/risk.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/risk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/scrabble.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/scrabble.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/sept-familles.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/sept-familles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/uno.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/uno.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modify-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/modify-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/bataille-doublons.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-doublons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/bataille-pertes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-pertes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/cluedo-passepartout.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/cluedo-passepartout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/cluedo-un-tueur-parmi-nous.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/cluedo-un-tueur-parmi-nous.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/loups-garous-faiseur-de-roi.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/loups-garous-faiseur-de-roi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/monopoly-banqueroute.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-banqueroute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/monopoly-debuts-difficiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-debuts-difficiles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/monopoly-joueurs-fantomes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-joueurs-fantomes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/poker-binaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-binaire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/poker-renverse.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-renverse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/poker-simplifié.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-simplifié.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/qui-est-ce-qui-est-ce-vraiment.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/qui-est-ce-qui-est-ce-vraiment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/risk-tres-riske.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/risk-tres-riske.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/scrabble-anagrammes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-anagrammes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/scrabble-face-a-soi-meme.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-face-a-soi-meme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/scrabble-mr-worldwide.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-mr-worldwide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/sept-familles-4-familles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/sept-familles-4-familles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/uno-eliminations.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-eliminations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/uno-equipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-equipes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rules/uno-face-a-tous.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-face-a-tous.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/why-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/why-premium.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +99,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/AlterinGames_backend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PHP Storm Projects\AlterinGames/games" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PHP Storm Projects\AlterinGames\backend\AlterinGames_backend" />
       <recent name="C:\PHP Storm Projects\AlterinGames" />
       <recent name="C:\PHP Storm Projects\AlterinGames\rules" />
       <recent name="C:\PHP Storm Projects\AlterinGames\css\mes_css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PHP Storm Projects\AlterinGames/games" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,14 +134,8 @@
       <workItem from="1621533468027" duration="509000" />
       <workItem from="1621799499717" duration="21000" />
       <workItem from="1622219241534" duration="3279000" />
-      <workItem from="1622305888687" duration="11501000" />
-    </task>
-    <task id="LOCAL-00004" summary="jeux-societe.html + css associé&#10;carrousel.css">
-      <created>1619886232197</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1619886232197</updated>
+      <workItem from="1622305888687" duration="12032000" />
+      <workItem from="1622374723328" duration="5111000" />
     </task>
     <task id="LOCAL-00005" summary="jeux-cartes.html + css associé">
       <created>1619886807050</created>
@@ -430,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622317238659</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="fix typo register form">
+      <created>1622318343677</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1622318343677</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +499,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix décalage footer et contenu main" />
     <MESSAGE value="fix décalage menu" />
     <MESSAGE value="mise en page contact.html" />
     <MESSAGE value="création pages de jeux" />
@@ -474,17 +523,18 @@
     <MESSAGE value="fix images qui créaient un overflow qui faisait apparaitre le menu lors des drags horizontaux" />
     <MESSAGE value="ajout attributs alt sur les images" />
     <MESSAGE value="css sur les forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="css sur les forms" />
+    <MESSAGE value="fix typo register form" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix typo register form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619890300107">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1619890300107" />
-    <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1621799514980">
+    <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1622374942663">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1060" y="461" key="FileChooserDialogImpl/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1621799514980" />
+    <state x="1060" y="461" key="FileChooserDialogImpl/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622374942663" />
     <state x="1150" y="618" key="Github.ShareDialog" timestamp="1617212870189">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
