@@ -50,7 +50,7 @@
         <p>Que nous proposez-vous aujourd'hui ?</p>
     </div>
 
-    <form id="form-contribute"  action="backend/AlterinGames_backend/createAltrules.php" method="post">
+    <form id="form-contribute" action="backend/AlterinGames_backend/createAltrules.php" method="post">
 
     <h1>
         <select required name="game">
