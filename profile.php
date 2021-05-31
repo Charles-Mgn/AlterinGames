@@ -23,6 +23,7 @@ if (!isset($_SESSION['login'])) {
     <link rel="stylesheet" href="css/mes_css/layout-secondary.css">
     <link rel="stylesheet" href="css/mes_css/layout-footer.css">
     <link rel="stylesheet" href="css/mes_css/menu.css">
+    <link rel="icon" href="/img/logo_menu.png">
 
     <title>Profil | AlterinGames</title>
 

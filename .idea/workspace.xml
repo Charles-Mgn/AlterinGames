@@ -19,11 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="AlterinGames_backend">
+    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="fix css landing page">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/access-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/access-profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/param/param.ini" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/param/param.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-landingpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-landingpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/light-mode.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/light-mode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-game-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-game-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-games.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buy-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/buy-premium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-games-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card-games.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/contribute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discover.html" beforeDir="false" afterPath="$PROJECT_DIR$/discover.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modify-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/modify-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/why-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/why-premium.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +119,7 @@
       <workItem from="1622407596986" duration="5169000" />
       <workItem from="1622414071317" duration="657000" />
       <workItem from="1622419142546" duration="1010000" />
-      <workItem from="1622461180291" duration="5642000" />
-    </task>
-    <task id="LOCAL-00012" summary="création des pages html qui manquaient (vides) + renommage fichier &amp; classes en anglais">
-      <created>1619890529159</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1619890529159</updated>
+      <workItem from="1622461180291" duration="6045000" />
     </task>
     <task id="LOCAL-00013" summary="création des pages html qui manquaient (vides) + renommage fichier &amp; classes en anglais">
       <created>1619890581546</created>
@@ -448,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622466534970</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="fix css landing page">
+      <created>1622467445411</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1622467445411</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +483,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix download règles officielles en .pdf" />
     <MESSAGE value="ajout fichier .pdf" />
     <MESSAGE value="pages TODO" />
     <MESSAGE value="pages de règles alternatives" />
@@ -492,7 +507,8 @@
     <MESSAGE value="intégration de la landing page au site final" />
     <MESSAGE value="Revert &quot;AlterinGames_backend&quot;&#10;&#10;This reverts commit 5466fc3b" />
     <MESSAGE value="AlterinGames_backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="AlterinGames_backend" />
+    <MESSAGE value="fix css landing page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix css landing page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1073" y="429" key="#com.intellij.ide.util.MemberChooser" timestamp="1622462836064">
@@ -527,5 +543,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622466546221" />
+    <state x="936" y="340" key="run.anything.popup" timestamp="1622467689405">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="936" y="340" key="run.anything.popup/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622467689405" />
   </component>
 </project>
