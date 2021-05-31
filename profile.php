@@ -39,7 +39,7 @@ if (!isset($_SESSION['login'])) {
             <?php echo $_SESSION['login']; ?>
         </h1>
     <?php endif ?>
-    <p>17<!--NB ALTERS--> Alters</p>
+    <p class="spefont">242<!--NB ALTERS--> Alters</p>
 
     <!--MENU-->
     <div class="nav-toggle" onclick='document.documentElement.classList.toggle("menu-open")'>
@@ -86,11 +86,9 @@ if (!isset($_SESSION['login'])) {
     </div>
     <div>
         <h4>Sur moi</h4>
-        <?php  if (isset($_SESSION['login'])) : ?>
             <p>
-                <?php include_once 'backend/AlterinGames_backend/getUsersDesc.php'; ?>
+                Passionné de jeux sur table !
             </p>
-        <?php endif ?>
     </div>
 </main>
 

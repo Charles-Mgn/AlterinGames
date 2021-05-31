@@ -82,11 +82,13 @@ main p {
     display: block;
     margin-left: 19.5rem;
     padding: 1rem .5rem 1rem 1.5rem;
-    font-size: 1.8rem;
     color: #EA9632;
     border-width: 1px;
     border-style: solid;
     border-image: url("../../img/button-border.png") 1;
+    font-family: 'Amatic-Bold';
+    font-size: 3rem;
+    text-align: center;
 }
 
 .bouton-list {
@@ -108,7 +110,6 @@ main p {
 
 .bouton-sobre[href="buy-premium.html"] {
     width: 20rem;
-    font-weight: bold;
 }
 
 .bouton-oui {
@@ -174,8 +175,9 @@ a {
 
 .liste-lettre {
     color: #EA9632;
-    font-size: 1.8rem;
     font-weight: bold;
+    font-family: 'Amatic-Bold';
+    font-size: 3rem;
 }
 
 .display-votes {
@@ -191,9 +193,10 @@ a {
 .demande-vote {
     border: none;
     color: #FFFFFF;
-    font-size: 2.5rem;
     padding: 1.5rem 5rem;
-    margin: 0 1.4rem;
+    margin: 0 1.9rem;
+    font-family: 'Amatic-Bold';
+    font-size: 4rem;
 }
 
 .association-form {
@@ -202,6 +205,11 @@ a {
 
 .profil_pic {
     margin: 1rem 0 0 1rem;
+}
+
+.spefont {
+    font-family: 'Amatic-Bold';
+    font-size: 3rem;
 }
 
 
