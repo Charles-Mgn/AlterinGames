@@ -85,7 +85,11 @@ if (!isset($_SESSION['login'])) {
     </div>
     <div>
         <h4>Sur moi</h4>
-        <p>J'aime les jeux depuis que je suis petit. Je me rappelle encore de quand j'ai joué à La Bonne paie pour la première fois quand...</p>
+        <?php  if (isset($_SESSION['login'])) : ?>
+            <p>
+                <?php include_once 'backend/AlterinGames_backend/getUsersDesc.php'; ?>
+            </p>
+        <?php endif ?>
     </div>
 </main>
 

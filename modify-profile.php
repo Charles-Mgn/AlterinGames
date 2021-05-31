@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (!isset($_SESSION['login'])) {
+    $_SESSION['msg'] = "Vous devez vous connectez afin de modifiez votre profil";
+    header('location: login.html');
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -46,15 +53,15 @@
         <img src="img/image_profil_background.png" alt="bannière" class="profil_banner-modify">
         <p class="text-modify">Modifier</p>
     </div>
-    <form id="form-modify-profile">
+    <form id="form-modify-profile" action="backend/AlterinGames_backend/updateUsers.php" method="post">
         <label>Pseudo</label>
-        <input type="text">
+        <input type="text" name="login">
         <label>Adresse mail</label>
-        <input type="text">
-        <label>Nouvelle adresse mail</label>
-        <input type="text">
+        <input type="text" name="mail">
+        <label>Votre description</label>
+        <input type="text" name="bio">
         <label>Nouveau mot de passe</label>
-        <input type="password">
+        <input type="password" name="password">
         <input type="submit" value="Enregistrer">
     </form>
     <button class="button-suppr"><span class="orange">Supprimer</span> de votre profil</button>
