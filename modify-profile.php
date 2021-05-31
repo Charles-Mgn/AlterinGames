@@ -25,7 +25,7 @@ if (!isset($_SESSION['login'])) {
 <header>
     <img src="img/image_settings.png" alt="image d'illustration paramètres" class="img_head">
     <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="logo claire">
-    <h1>Modifiez votre profil</h1>
+    <h1>devenez les maîtres du jeu</h1>
 
     <!--MENU-->
     <div class="nav-toggle" onclick='document.documentElement.classList.toggle("menu-open")'>

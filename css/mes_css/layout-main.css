@@ -1,11 +1,21 @@
 @font-face {
     font-family: 'NotoMono';
-    src: url('../../fonts/NotoMono-Regular.ttf') format('truetype')
+    src: url('../../fonts/NotoMono-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Britannic';
-    src: url('../../fonts/britannic.ttf') format('truetype')
+    src: url('../../fonts/britannic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Amatic-Regular';
+    src: url('../../fonts/AmaticSC-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Amatic-Bold';
+    src: url('../../fonts/AmaticSC-Bold.ttf') format('truetype');
 }
 
 html {
@@ -34,8 +44,8 @@ header > .logo, header > h1, header > p {
 }
 
 header > h1 {
-    font-family: 'Britannic';
-    font-size: 3.5rem;
+    font-family: 'Amatic-Bold';
+    font-size: 5rem;
     text-transform: uppercase;
 }
 
@@ -256,8 +266,8 @@ a {
 }
 
 .page-rules h2 {
-    font-family: 'Britannic';
-    font-size: 2.5rem;
+    font-family: 'Amatic-Bold';
+    font-size: 3.5rem;
     border-bottom: white .2rem solid;
     padding: 0 1rem 1rem;
     margin-top: 0;

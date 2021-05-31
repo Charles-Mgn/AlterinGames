@@ -54,7 +54,7 @@ if (!isset($_SESSION['login'])) {
             <li class="menu-lien-secondaire"><a href="">Profil</a></li>
             <li class="menu-lien-secondaire"><a href="settings.php">Paramètres</a></li>
         </ul>
-        <h1>prenez le contrôle des règles</h1>
+        <h1>devenez les maîtres du jeu</h1>
         <img src="img/logo_menu.png" alt="Logo AlterinGames: Alter the rules" class="claire">
     </nav>
 </header>

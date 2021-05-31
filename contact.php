@@ -61,7 +61,7 @@
 <header>
     <img src="img/image_dice_phone.png" alt="Dé sur un fond noir" class="img_head">
     <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="logo claire">
-    <h1>prenez le contrôle des règles</h1>
+    <h1>devenez les maîtres du jeu</h1>
 
     <!--MENU-->
     <div class="nav-toggle" onclick='document.documentElement.classList.toggle("menu-open")'>
