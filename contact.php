@@ -145,8 +145,8 @@
     </div>
     <div class="footer_links">
         <a href="settings.php">Paramètres</a>
-        <a href="contact.html#contact">Nous contacter</a>
-        <a href="contact.html#projets">Découvrez nos autres projets</a>
+        <a href="contact.php#contact">Nous contacter</a>
+        <a href="contact.php#projets">Découvrez nos autres projets</a>
     </div>
 </footer>
 </body>
