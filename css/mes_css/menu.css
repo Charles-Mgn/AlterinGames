@@ -59,9 +59,7 @@
     top: 0;
 }
 
-.menu li {
-    opacity: 0;
-    transition: all .5s ease;
+.menu li, .menu-bis li {
     text-transform: uppercase;
     font-size: 2.5rem;
     text-align: center;
@@ -69,15 +67,20 @@
     line-height: 2.5rem;
 }
 
-.menu li:after {
+.menu li {
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.menu li:after, .menu-bis li:after {
     content: url("../../img/divider-menu.png");
     display: block;
 }
-.menu li:last-of-type:after {
+.menu li:last-of-type:after, .menu-bis li:last-of-type:after {
      content: none;
 }
 
-.menu ul {
+.menu ul, .menu-bis ul {
     border-width: 3px;
     border-style: solid;
     border-image: url("../../img/menu-border.png") 4;
@@ -87,7 +90,7 @@
     padding-top: 1.5rem;
 }
 
-.menu h1 {
+.menu h1, .menu-bis h1 {
     font-family: 'Amatic-Bold';
     padding-right: 5.8%;
     font-size: 4.5rem;
@@ -99,7 +102,7 @@
     margin-left: 1.5rem;
 }
 
-.menu img {
+.menu img, .menu-bis img {
     width: 9rem;
     height: auto;
     display: inline-block;
@@ -130,4 +133,21 @@
 
 .menu-open .menu li:nth-of-type(n+5) {
     transition-delay: .5s;
+}
+
+@keyframes showItems {
+    0% {
+        opacity: 0.0001;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.menu-bis li:nth-of-type(n+1) {
+    animation: showItems .3s linear forwards;
+}
+
+.menu-bis li:nth-of-type(n+2) {
+    animation: showItems .3s linear forwards;
 }
