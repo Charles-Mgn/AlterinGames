@@ -47,7 +47,7 @@
         <?php
         session_start();
         if (isset($_SESSION['login'])) {
-            echo "<div class='settings-option' id='deconnexion'>Déconnexion</div>";
+            echo "<div class='settings-option' id='deconnexion'><a href='backend/AlterinGames_backend/logout.php'>Déconnexion</a></div>";
         }
         ?>
     </div>
@@ -65,12 +65,5 @@
         <a href="contact.php#projets">Découvrez nos autres projets</a>
     </div>
 </footer>
-<script>
-    let deco = document.querySelector('#deconnexion');
-    deco.addEventListener('click',function () {
-        <?php session_destroy() ?>;
-        console.log("déconnexion")
-    })
-</script>
 </body>
 </html>

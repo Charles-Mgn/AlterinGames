@@ -19,57 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="captcha sur le formulaire permettant de poster des règles">
+    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="fix lien vers contact.php">
+      <change afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board-game-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-game-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board-games.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buy-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/buy-premium.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-games-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-games.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/contribute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discover.html" beforeDir="false" afterPath="$PROJECT_DIR$/discover.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/bataille.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/bataille.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/blackjack.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/blackjack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/cluedo.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/cluedo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/la-bonne-paye.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/la-bonne-paye.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/loups-garous.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/loups-garous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/monopoly.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/monopoly.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/poker.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/poker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/qui-est-ce.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/qui-est-ce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/risk.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/risk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/scrabble.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/scrabble.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/sept-familles.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/sept-familles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/uno.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/uno.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modify-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/modify-profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-doublons.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-doublons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-pertes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-pertes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/cluedo-passepartout.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/cluedo-passepartout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/cluedo-un-tueur-parmi-nous.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/cluedo-un-tueur-parmi-nous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/loups-garous-faiseur-de-roi.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/loups-garous-faiseur-de-roi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-banqueroute.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-banqueroute.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-debuts-difficiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-debuts-difficiles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-joueurs-fantomes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-joueurs-fantomes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/poker-binaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-binaire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/poker-renverse.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-renverse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/poker-simplifié.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-simplifié.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/qui-est-ce-qui-est-ce-vraiment.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/qui-est-ce-qui-est-ce-vraiment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/risk-tres-riske.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/risk-tres-riske.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-anagrammes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-anagrammes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-face-a-soi-meme.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-face-a-soi-meme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-mr-worldwide.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-mr-worldwide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/sept-familles-4-familles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/sept-familles-4-familles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-eliminations.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-eliminations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-equipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-equipes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-face-a-tous.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-face-a-tous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/settings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/why-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/why-premium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/settings.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,21 +102,7 @@
       <workItem from="1622407596986" duration="5169000" />
       <workItem from="1622414071317" duration="657000" />
       <workItem from="1622419142546" duration="1010000" />
-      <workItem from="1622461180291" duration="8369000" />
-    </task>
-    <task id="LOCAL-00016" summary="contenu html de login, register, access-profile">
-      <created>1619893465259</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1619893465259</updated>
-    </task>
-    <task id="LOCAL-00017" summary="structure tools.html">
-      <created>1619893630526</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1619893630526</updated>
+      <workItem from="1622461180291" duration="9702000" />
     </task>
     <task id="LOCAL-00018" summary="contenu html settings.html">
       <created>1619893756850</created>
@@ -494,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622469676262</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="ajout option pour se déconnecter">
+      <created>1622470158549</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1622470158549</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fix lien vers contact.php">
+      <created>1622470238453</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1622470238453</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,8 +466,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix images des jeux" />
-    <MESSAGE value="enlever les commentaires dans le titres des pages de jeu" />
     <MESSAGE value="maillage interne menant aux règles alternatives" />
     <MESSAGE value="fix décalage h4 pages règles alternatives" />
     <MESSAGE value="convertir toutes les unités &quot;px&quot; en &quot;rem&quot;" />
@@ -538,7 +489,9 @@
     <MESSAGE value="ajout icône onglet" />
     <MESSAGE value="ajout target _blank sur les liens menant hors du site + formulaire de contact en php (avec intégration captcha)" />
     <MESSAGE value="captcha sur le formulaire permettant de poster des règles" />
-    <option name="LAST_COMMIT_MESSAGE" value="captcha sur le formulaire permettant de poster des règles" />
+    <MESSAGE value="ajout option pour se déconnecter" />
+    <MESSAGE value="fix lien vers contact.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix lien vers contact.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1073" y="429" key="#com.intellij.ide.util.MemberChooser" timestamp="1622462836064">
@@ -569,10 +522,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1127" y="633" key="VCS.ChangelistChooser/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622465903071" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1622466546221">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1622470517445">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622466546221" />
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622470517445" />
     <state x="936" y="340" key="run.anything.popup" timestamp="1622467689405">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
