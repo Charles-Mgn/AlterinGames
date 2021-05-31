@@ -224,6 +224,22 @@ a {
     display: none;
 }
 
+@keyframes voted {
+    0% {
+        color: #FFFFFF;
+    }
+    50% {
+        color: #EA9632;
+    }
+    100% {
+        color: #FFFFFF;
+    }
+}
+
+.voted {
+    animation: voted ease-in-out 1.2s infinite;
+}
+
 
 /* CSS PAGE CONTACT */
 

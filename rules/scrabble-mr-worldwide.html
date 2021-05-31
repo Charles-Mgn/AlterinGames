@@ -42,7 +42,10 @@
             <p>Par <!--LE CREATEUR-->Charles</p>
 
             <h3>Mettre en favori</h3>
-            <img src="../img/favorite-off.png" alt="icone favori off" class="fav-icon">
+            <div class="fav-div">
+                <img src="../img/favorite-off.png" alt="icone favori off" class="fav-icon-off" onclick="metEnFav()">
+                <img src="../img/favorite-on.png" alt="icone favori on" class="fav-icon-on" onclick="metEnFav()">
+            </div>
 
             <h3>Nombre de votes</h3>
             <section class="display-votes">
@@ -58,8 +61,8 @@
         </main>
 
         <h4><span class="orange">Voudriez-vous y jouer ?</span></h4>
-            <button class="demande-vote bouton-oui">OUI</button>
-            <button class="demande-vote bouton-non">NON</button>
+        <button class="demande-vote bouton-oui" onclick="voteOui()">OUI</button>
+        <button class="demande-vote bouton-non" onclick="voteNon()">NON</button>
         <a href="../games/scrabble.html" class="bouton-sobre bouton-return">Retour</a>
 
         <footer>
@@ -79,6 +82,42 @@
             let favIcon = document.querySelector('.fav-div');
             function metEnFav() {
                 favIcon.classList.toggle('fav-on');
+            }
+
+            function voteOui() {
+                let nbVoteOui = document.querySelector('.vote-oui');
+                nbVoteOui.classList.toggle('voted');
+
+                if (document.querySelector('.vote-oui.voted')) {
+                    document.querySelector('.vote-oui').innerHTML = parseInt(nbVoteOui.innerHTML, 10) + 1;
+                } else {
+                    document.querySelector('.vote-oui').innerHTML = parseInt(nbVoteOui.innerHTML, 10) - 1;
+                }
+
+                let nbVoteNon = document.querySelector('.vote-non');
+
+                if (document.querySelector('.vote-non.voted')) {
+                    document.querySelector('.vote-non').innerHTML = parseInt(nbVoteNon.innerHTML, 10) - 1;
+                    nbVoteNon.classList.remove('voted');
+                }
+            }
+
+            function voteNon() {
+                let nbVoteNon = document.querySelector('.vote-non');
+                nbVoteNon.classList.toggle('voted');
+
+                if (document.querySelector('.vote-non.voted')) {
+                    document.querySelector('.vote-non').innerHTML = parseInt(nbVoteNon.innerHTML, 10) + 1;
+                } else {
+                    document.querySelector('.vote-non').innerHTML = parseInt(nbVoteNon.innerHTML, 10) - 1;
+                }
+
+                let nbVoteOui = document.querySelector('.vote-oui');
+
+                if (document.querySelector('.vote-oui.voted')) {
+                    document.querySelector('.vote-oui').innerHTML = parseInt(nbVoteOui.innerHTML, 10) - 1;
+                    nbVoteOui.classList.remove('voted');
+                }
             }
         </script>
     </body>
