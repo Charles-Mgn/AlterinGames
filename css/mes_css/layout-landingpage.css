@@ -1,0 +1,283 @@
+html {
+    margin: 0 auto;
+    line-height: calc(3vw + .3rem);
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 1rem;
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 7.5vw);
+    grid-template-rows: repeat(62, 3.9vw);
+    gap: .83333vw;
+}
+
+header, main, aside, footer {
+    display: contents;
+}
+
+header > * {
+    margin: 10px 0 0 0;
+}
+
+header > h1 {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 4;
+    padding-right: 5.8%;
+    line-height: calc(5vw + .3rem);
+    text-align: right;
+    vertical-align: middle;
+    transform: translateX(-25vw);
+    animation: showLogo .3s ease-in-out forwards;
+    background-color: #242424;
+    z-index: 1;
+}
+@keyframes showLogo {
+    100% { transform: translateX(0);
+        opacity: 1 }
+}
+
+header > img {
+    grid-column: 4 / span 3;
+    width: 101%;
+    height: auto;
+    transform: translateX(-35vw);
+    opacity: 0;
+    animation: showLogo .3s .15s ease-in-out forwards;
+}
+
+#paragraph1, #paragraph2, #paragraph3 {
+    padding: 0 2rem;
+}
+
+#paragraph1 {
+    grid-column: 3 / span 5;
+    grid-row: 6 / span 4;
+    transform: translateY(10vw);
+    opacity: 0;
+    animation: showParagraph .3s .2s ease-in-out forwards;
+}
+@keyframes showParagraph {
+    100% { transform: translateY(0);
+        opacity: 1 }
+}
+
+#paragraph1 > p {
+    margin-bottom: 0;
+}
+
+#paragraph2 {
+    grid-column: 8 / span 4;
+    grid-row: 15 / span 4;
+}
+
+#paragraph3 {
+    grid-column: 2 / span 4;
+    grid-row: 24 / span 4;
+    text-align: center;
+    line-height: calc(3vw + .3rem);
+}
+
+#paragraph3 > p > span {
+    display: block;
+}
+
+#paragraph4 {
+    grid-column: 4 / span 6;
+    grid-row: 32 / span 2;
+    text-align: center;
+    line-height: 6rem;
+}
+
+form {
+    grid-column: 2 / span 10;
+    grid-row: 35 / span 8;
+    padding-left: calc(7.5vw + .83333vw);
+    position: relative;
+}
+
+form * {
+    display: block;
+    transition: all .3s;
+}
+
+form label {
+    padding-top: 1rem;
+}
+
+form input {
+    all: unset;
+    margin-bottom: 1rem;
+    width: 40.7vw;
+    padding-top: 1rem;
+}
+
+form input[type="submit"] {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 2rem 1rem;
+    width: 22.4vw;
+    text-align: center;
+}
+
+.association-form {
+    width: 30vw;
+}
+
+aside h2 {
+    grid-column: 2 / span 6;
+    grid-row: 44 / span 1;
+}
+
+aside h3 {
+    grid-column: 2 / span 6;
+    grid-row: 46 / span 1;
+}
+
+.photo > img {
+    width: 100%;
+    height: auto;
+}
+
+.photo > a {
+    display: block;
+}
+
+.photo > a > img {
+    width: 10%;
+    height: auto;
+    margin: 0 1rem -.5rem 0;
+}
+
+#Charles {
+    grid-column: 2 / span 2;
+    grid-row: 48 / span 6;
+}
+
+#Julien {
+    grid-column: 6 / span 2;
+    grid-row: 48 / span 6;
+}
+
+#Floran {
+    grid-column: 10 / span 2;
+    grid-row: 48 / span 6;
+}
+
+.clipCircle {
+    clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
+}
+
+.photo > img:hover {
+    border: #EA9632 10px solid;
+    transition: all .5s;
+}
+
+.photo p {
+    text-align: center;
+    height: 7rem;
+    padding-bottom: 1.5rem;
+    margin: 0 0 1.5rem;
+}
+
+.photo a {
+    text-align: center;
+    margin-top: 0;
+}
+
+aside p {
+    grid-column: 4 / span 8;
+    text-align: right;
+    line-height: calc(7vw + .3rem);
+    grid-row: 54 / span 1;
+}
+
+footer > .mentions {
+    padding-top: 10px;
+    margin-top: 10px;
+    grid-column: 2 / span 6;
+    grid-row: 60 / span 3;
+}
+
+footer > .footer_links {
+    grid-column: 9 / span 3;
+    grid-row: 60 / span 2;
+    padding-left: calc(7.5vw + .83333vw);
+    margin-top: 10px;
+}
+
+footer > img {
+    width: 102vw;
+    left: -2vw;
+    bottom: 0;
+}
+
+main > img, footer > img {
+    position: absolute;
+    z-index: -1;
+}
+
+#de {
+    top: -5vw;
+    right: -9vw;
+    width: 47vw;
+    height: auto;
+}
+
+#famille {
+    top: 46vw;
+    left: -6vw;
+    width: 53%;
+    height: auto;
+}
+
+#echecs {
+    top: 98vw;
+    right: -8vw;
+    width: 60%;
+    height: auto;
+}
+
+#path-1,#path-1_sombre {
+    top: 43vw;
+    right: 30vw;
+    width: 31vw;
+    height: auto;
+}
+
+#path-2,#path-2_sombre {
+    top: 77vw;
+    right: 30vw;
+    width: 40vw;
+    height: auto;
+}
+#path-2_sombre{
+    top: 90vw;
+}
+
+#path-3,#path-3_sombre{
+    top: 130vw;
+    right: 30vw;
+    width: 40vw;
+    height: auto;
+}
+
+input[type="checkbox"].jour_nuit + label {
+    position: absolute;
+    top: 2%;
+    right: 25%;
+}
+
+.jour .insta {
+    display: inline;
+}

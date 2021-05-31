@@ -20,25 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/getUsersDesc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/mes_css/layout-landingpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/mes_css/light-mode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/mes_css/styles-landingpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fond-footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image_dice.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image_echecs.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image_famille.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/instagram_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/path-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/path-1_sombre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/path-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/path-2_sombre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/path-3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/path-3_sombre.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Altrules.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Altrules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Belongs.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Belongs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Favorites.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Favorites.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Newsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Newsletter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Publishes.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Publishes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Receives.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Receives.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Votesfor.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/classes/class.Votesfor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/cnxUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/cnxUsers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/createAltrules.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/createAltrules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/getUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/getUsers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/test_classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/test_classes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/updateUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/updateUsers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modify-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/modify-profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/createUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/createUsers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend/AlterinGames_backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1qX4IqxWM5tPs66jvjCXPcJKgP5" />
@@ -77,14 +75,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PHP Storm Projects\AlterinGames\css\lib" />
+      <recent name="C:\PHP Storm Projects\AlterinGames" />
+      <recent name="C:\PHP Storm Projects\AlterinGames\css\mes_css" />
+      <recent name="C:\PHP Storm Projects\AlterinGames\img" />
+      <recent name="C:\PHP Storm Projects\AlterinGames/games" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\PHP Storm Projects\AlterinGames\backend\AlterinGames_backend" />
       <recent name="C:\PHP Storm Projects\AlterinGames" />
       <recent name="C:\PHP Storm Projects\AlterinGames\rules" />
       <recent name="C:\PHP Storm Projects\AlterinGames\css\mes_css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PHP Storm Projects\AlterinGames/games" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -114,21 +116,7 @@
       <workItem from="1622407596986" duration="5169000" />
       <workItem from="1622414071317" duration="657000" />
       <workItem from="1622419142546" duration="1010000" />
-      <workItem from="1622461180291" duration="1962000" />
-    </task>
-    <task id="LOCAL-00006" summary="jeux-cartes.html + css associé">
-      <created>1619886820559</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1619886820559</updated>
-    </task>
-    <task id="LOCAL-00007" summary="liste-jeux-societe.html + réagencement css (suppr styles.css -&gt; transfert vers mise-en-page-generale.css)">
-      <created>1619887781739</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1619887781739</updated>
+      <workItem from="1622461180291" duration="4005000" />
     </task>
     <task id="LOCAL-00008" summary="liste-jeux-cartes.html">
       <created>1619887936632</created>
@@ -459,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622399912104</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="fix classes PHP">
+      <created>1622464334629</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1622464334629</updated>
+    </task>
+    <task id="LOCAL-00056" summary="tests classes PHP + DB">
+      <created>1622464354929</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1622464354929</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,9 +480,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mise en page contact.html" />
-    <MESSAGE value="création pages de jeux" />
-    <MESSAGE value="maillage interne, lien vers les pages de jeux" />
     <MESSAGE value="liens règles de jeu officielles en .pdf" />
     <MESSAGE value="liens règles de jeu officielles en .pdf externes" />
     <MESSAGE value="fix download règles officielles en .pdf" />
@@ -503,17 +502,20 @@
     <MESSAGE value="css sur les forms" />
     <MESSAGE value="fix typo register form" />
     <MESSAGE value="formulaire de création de règles" />
-    <option name="LAST_COMMIT_MESSAGE" value="formulaire de création de règles" />
+    <MESSAGE value="fix classes PHP" />
+    <MESSAGE value="tests classes PHP + DB" />
+    <MESSAGE value="intégration de la landing page au site final" />
+    <option name="LAST_COMMIT_MESSAGE" value="intégration de la landing page au site final" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1073" y="429" key="#com.intellij.ide.util.MemberChooser" timestamp="1622462836064">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1073" y="429" key="#com.intellij.ide.util.MemberChooser/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622462836064" />
-    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622393856527">
+    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622465712042">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622393856527" />
+    <state x="1010" y="467" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622465712042" />
     <state x="1060" y="461" key="FileChooserDialogImpl" timestamp="1622374942663">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -526,9 +528,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1114" y="643" key="NewPhpFileDialog/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622410334200" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1622399939068">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1622464388309">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622399939068" />
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622464388309" />
   </component>
 </project>

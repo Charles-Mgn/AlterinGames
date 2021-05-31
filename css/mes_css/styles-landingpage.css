@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'NotoMono';
+    src: url('../../fonts/NotoMono-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Britannic';
+    src: url('../../fonts/britannic.ttf') format('truetype')
+}
+
+html {
+    color: #FFFFFF;
+    font-family: 'NotoMono';
+    position: relative;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #242424;
+}
+
+header > h1 {
+    font-family: 'Britannic';
+    font-size: calc(3.8vw + .3rem);
+    text-transform: uppercase;
+    border-right: #FFFFFF 2px solid;
+}
+
+#paragraph1, #paragraph2, #paragraph3 {
+    border-right: #227F89 calc(2px + .1vw) solid;
+    border-left: #EA9632 calc(2px + .1vw) solid;
+    position: relative;
+    padding-bottom: 5px;
+}
+#paragraph1::before, #paragraph2::before, #paragraph3::before {
+    content: '';
+    position: absolute;
+    width: 5vw;
+    height: calc(2px + .1vw);
+    top: 0;
+    left: -2px;
+    background-color: #EA9632;
+}
+#paragraph1::after, #paragraph2::after, #paragraph3::after {
+    content: '';
+    position: absolute;
+    width: 5vw;
+    height: calc(2px + .1vw);
+    bottom: 0;
+    right: -2px;
+    background-color: #227F89;
+}
+
+#paragraph1, #paragraph2 {
+    font-size: calc(1.3vw + .3rem);
+}
+
+#paragraph3 {
+    font-size: calc(1.5vw + .3rem);
+}
+
+#paragraph4 {
+    font-size: calc(2vw + .3rem);
+}
+
+form {
+    border-left: #FFFFFF 2px solid;
+    font-size: calc(1.3vw + .3rem);
+}
+
+form input {
+    font-family: 'NotoMono';
+    font-size: calc(1vw + .3rem);
+    color: #FFFFFF;
+    background: none;
+    border-bottom: #EA9632 solid .1rem;
+}
+
+form input[type="submit"] {
+    font-size: calc(2.1vw + .3rem);
+    background-color: #EA9632;
+    border: none;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #FFFFFF;
+    color: #EA9632;
+    border: #EA9632 4px solid;
+    padding: 17px 7px;
+    transition: all .5s;
+}
+
+form > .association-form:hover > label {
+    color: #EA9632;
+    transform: translateY(5px);
+    transition: all .3s;
+}
+
+form > .association-form:hover > input {
+    border-color: #FFFFFF;
+    transition: all .3s;
+}
+
+.je_minscris, .orange {
+    color: #EA9632;
+}
+
+.blanc {
+    color: #FFFFFF;
+}
+
+.je_minscris {
+    background: none;
+    float: right;
+    border: none;
+    border-top: #FFFFFF 1px solid;
+    border-bottom: #FFFFFF 1px solid;
+    font-family: 'NotoMono';
+    font-size: calc(1.5vw + .3rem);
+    transition: all .5s;
+}
+
+.je_minscris:hover {
+    border-top: #EA9632 1px solid;
+    border-bottom: #EA9632 1px solid;
+    color: #FFFFFF;
+    font-size: calc(1.5vw + .4rem);
+    transition: all .3s;
+}
+
+.je_minscris:hover .blanc {
+    color: #EA9632;
+    font-size: calc(1.5vw + .4rem);
+    transition: all .3s;
+}
+
+aside h2 {
+    font-size: calc(3.1vw + .3rem);
+}
+
+aside h3 {
+    font-size: calc(3vw + .3rem);
+}
+
+footer {
+    color: #242424;
+}
+
+.photo p {
+    font-size: calc(1.5vw + .3rem);
+}
+
+.photo a {
+    font-size: calc(.9vw + .3rem);
+    border-top: #FFFFFF 2px solid;
+    margin-top: 2vw;
+}
+
+aside p {
+    font-size: calc(4.1vw + .3rem);
+}
+
+footer > .mentions {
+    font-size: calc(.53vw + .3rem);
+}
+
+footer > .footer_links {
+    font-size: calc(.55vw + .3rem);
+    border-left: #707070 1px solid;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer_links a {
+    display: block;
+    color: #242424;
+    transition: all .5s;
+}
+
+.footer_links a:hover {
+    color: #EA9632;
+    transform: translateX(10px);
+    font-size: calc(.55vw + .4rem);
+    transition: all .3s;
+}
+
+body::-webkit-scrollbar {
+    width: .5rem;
+    background-color: #227F89;
+}
+
+body::-webkit-scrollbar:hover {
+    width: 1.5rem;
+    background-color: #227F89;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #EA9632;
+}
+
+input[type="checkbox"].jour_nuit {
+    display: none;
+}
+input[type="checkbox"].jour_nuit + label {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 3rem;
+    padding:2px;
+    background-color: #c0ceda ;
+    transition: all 0.5s ;
+}
+input[type="checkbox"].jour_nuit + label::before {
+    box-sizing: border-box;
+    display: block;
+    content: "";
+    height: calc(3rem - 4px);
+    width: calc(3rem - 4px);
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.5s ;
+}
+input[type="checkbox"].jour_nuit:checked + label {
+    background-color: #00B7E8 ;
+}
+input[type="checkbox"].jour_nuit:checked + label::before {
+    margin-left: 3rem ;
+}
+
+.sombre{
+    display: none;
+}
+.claire{
+    display: block;
+}
+
+.insta {
+    display: inline;
+}

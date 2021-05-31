@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mes_css/layout-landingpage.css">
+    <link rel="stylesheet" href="css/mes_css/styles-landingpage.css">
+    <link rel="stylesheet" href="css/mes_css/light-mode.css">
+    <title>Découvrez AlterinGames</title>
+</head>
+<body class="container">
+    <header>
+        <h1>prenez le contrôle des règles</h1>
+        <a href="index.html"><img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="claire"></a>
+        <a href="index.html"><img src="img/logo_dark.webp" alt="Logo AlterinGames: Alter the rules" class="sombre"></a>
+    </header>
+
+    <main>
+        <img src="img/image_dice.webp" alt="Dé sur un fond noir" id="de">
+        <img src="img/image_famille.webp" alt="Famille jouant à un jeu de société" id="famille">
+        <img src="img/image_echecs.webp" alt="Personnes jouant aux échecs" id="echecs">
+        <img src="img/path-1.webp" alt="Chemin" class="claire" id="path-1">
+        <img src="img/path-1_sombre.png" alt="Chemin" class="sombre" id="path-1_sombre">
+        <img src="img/path-2.webp" alt="Chemin 2" class="claire" id="path-2">
+        <img src="img/path-2_sombre.png" alt="Chemin 2" class="sombre" id="path-2_sombre">
+        <img src="img/path-3.webp" alt="Chemin 3" class="claire" id="path-3">
+        <img src="img/path-3_sombre.webp" alt="Chemin 3" class="sombre" id="path-3_sombre">
+        <input type="checkbox" onclick="jour_nuit ()" class="jour_nuit" id="jour_nuit">
+        <label for="jour_nuit"></label>
+        <section id="paragraph1">
+                <p>AlterinGames vous propose de retrouver le goût des jeux sur tables grâce à des règles alternatives qui chamboulerons vos parties entre amis ou en famille !</p>
+                <a href="#paragraph4" class="je_minscris">Je m<span class="blanc">'</span>inscris</a>
+        </section>
+        <section id="paragraph2">
+                <p>Que vous soyez jeunes ou plus âgés, venez découvrir ou redécouvrir vos jeux favoris, et venez proposer VOS propres règles grâce à une communauté en pleine expansion.</p>
+        </section>
+        <section id="paragraph3">
+                <p>Devenez les maîtres du jeu ! <span>Alter the rules,</span> alter the games.</p>
+                <a href="#paragraph4" class="je_minscris">Je m<span class="blanc">'</span>inscris</a>
+        </section>
+        <section id="paragraph4">
+            <p>Venez partager vos règles sur <a href="index.html"><span class="orange">AlterinGames</span></a></p>
+        </section>
+
+            <form action="backend/AlterinGames_backend/createUsers.php" method="post">
+                <div class="association-form">
+                    <label>Pseudo</label>
+                    <input type="text" name="login" required>
+                </div>
+                <div class="association-form">
+                    <label>Adresse mail</label>
+                    <input type="text" name="email" required>
+                </div>
+                <div class="association-form">
+                    <label>Mot de passe</label>
+                    <input type="password" name="password_1" required>
+                </div>
+                <div class="association-form">
+                    <label>Confirmer le mot de passe</label>
+                    <input type="password" name="password_2"required>
+                </div>
+                <input type="submit" value="Inscrivez-vous" >
+            </form>
+
+    </main>
+    <aside>
+        <h2><span class="orange">AlterinGames</span>, c'est ...</h2>
+        <h3>Une équipe de passionnés</h3>
+        <div id="Charles" class="photo">
+            <img src="img/photo_charles.webp" alt="Photo Charles Mangin" class="clipCircle">
+            <p><span class="orange">Charles</span> Mangin</p>
+            <a href="https://www.instagram.com/charles_0229/"><img src="img/instagram_icon.png" class="claire insta" alt="Logo instagram"><img src="img/instagram_dark.png" class="sombre" alt="Logo instagram"><span class="orange">@</span>charles<span class="orange">_</span>0229</a>
+        </div>
+        <div id="Julien" class="photo">
+            <img src="img/photo_julien.webp" alt="Photo Julien Ferré" class="clipCircle">
+            <p><span class="orange">Julien</span> Ferré</p>
+            <a href="https://www.instagram.com/juju_le_videomaker/"><img src="img/instagram_icon.png" class="claire insta" alt="Logo instagram"><img src="img/instagram_dark.png" class="sombre" alt="Logo instagram"><span class="orange">@</span>juju<span class="orange">_</span>le<span class="orange">_</span>videomaker</a>
+        </div>
+        <div id="Floran" class="photo">
+            <img src="img/photo_floran.webp" alt="Photo Floran Marchal" class="clipCircle">
+            <p><span class="orange">Floran</span> Marchal</p>
+            <a href="https://www.instagram.com/floragon222/"><img src="img/instagram_icon.png" class="claire insta" alt="Logo instagram"><img src="img/instagram_dark.png" class="sombre" alt="Logo instagram"><span class="orange">@</span>floragon222</a>
+        </div>
+        <p>Mais c'est aussi bien sûr chacun d'entre <span class="orange">vous</span> !</p>
+    </aside>
+<footer>
+    <div class="mentions">
+        <p>Ce site a été créé par Charles Mangin, Julien Ferré, et Floran Marchal, étudiants au DUT MMI de Montbéliard</p>
+        <p>Ce projet a été réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
+        <p>Tous droits de reproduction et de diffusion réservés © 2021</p>
+    </div>
+    <div class="footer_links">
+        <a href="settings.html">Paramètres</a>
+        <a href="contact.html#contact">Nous contacter</a>
+        <a href="contact.html#projets">Découvrez nos autres projets</a>
+    </div>
+    <img src="img/fond-footer.png" alt="fond footer">
+</footer>
+</body>
+<script>
+        function jour_nuit() {
+            let element = document.body;
+            element.classList.toggle("jour");
+        }
+</script>
+</html>
