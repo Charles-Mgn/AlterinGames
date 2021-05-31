@@ -44,6 +44,12 @@
         <div class="settings-option">Inscription à la newsletter</div>
         <div class="settings-option"><a href="why-premium.html">Passer à Premium</a></div>
         <div class="settings-option"><a href="contact.php">Nous contacter</a></div>
+        <?php
+        session_start();
+        if (isset($_SESSION['login'])) {
+            echo "<div class='settings-option' id='deconnexion'>Déconnexion</div>";
+        }
+        ?>
     </div>
 </main>
 
@@ -54,10 +60,17 @@
         <p>Tous droits de reproduction et de diffusion réservés © 2021</p>
     </div>
     <div class="footer_links">
-        <a href="settings.html">Paramètres</a>
+        <a href="settings.php">Paramètres</a>
         <a href="contact.php#contact">Nous contacter</a>
         <a href="contact.php#projets">Découvrez nos autres projets</a>
     </div>
 </footer>
+<script>
+    let deco = document.querySelector('#deconnexion');
+    deco.addEventListener('click',function () {
+        <?php session_destroy() ?>;
+        console.log("déconnexion")
+    })
+</script>
 </body>
 </html>
