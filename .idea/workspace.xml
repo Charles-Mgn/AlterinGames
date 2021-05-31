@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="placeholders votes + créateurs">
+    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="nouvelle typo sur plusieurs éléments graphiques (bouton, pseudo)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board-game-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-game-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-games-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mes_css/layout-main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rules/bataille-doublons.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-doublons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rules/bataille-pertes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-pertes.html" afterDir="false" />
@@ -125,14 +122,8 @@
       <workItem from="1622407596986" duration="5169000" />
       <workItem from="1622414071317" duration="657000" />
       <workItem from="1622419142546" duration="1010000" />
-      <workItem from="1622461180291" duration="13488000" />
-    </task>
-    <task id="LOCAL-00021" summary="contenu html contact.html">
-      <created>1619895016440</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1619895016440</updated>
+      <workItem from="1622461180291" duration="14710000" />
+      <workItem from="1622483942316" duration="1397000" />
     </task>
     <task id="LOCAL-00022" summary="modification des images intégrées">
       <created>1619895857483</created>
@@ -470,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622474354522</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="nouvelle typo sur plusieurs éléments graphiques (bouton, pseudo)">
+      <created>1622475300008</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1622475300008</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +487,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="déplacer tous les jeux dans un dossier &quot;games&quot;" />
     <MESSAGE value="html + css pages settings.html, modify-profile.html, contribute.html" />
     <MESSAGE value="fix css page d'accueil" />
     <MESSAGE value="&quot;contact&quot; retiré du menu" />
@@ -514,7 +511,8 @@
     <MESSAGE value="fix logout" />
     <MESSAGE value="nouvelle google font pour les titres + nouveau slogan" />
     <MESSAGE value="placeholders votes + créateurs" />
-    <option name="LAST_COMMIT_MESSAGE" value="placeholders votes + créateurs" />
+    <MESSAGE value="nouvelle typo sur plusieurs éléments graphiques (bouton, pseudo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="nouvelle typo sur plusieurs éléments graphiques (bouton, pseudo)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1073" y="429" key="#com.intellij.ide.util.MemberChooser" timestamp="1622462836064">

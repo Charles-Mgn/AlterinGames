@@ -212,6 +212,18 @@ a {
     font-size: 3rem;
 }
 
+.fav-div.fav-on .fav-icon-on {
+    display: unset;
+}
+
+.fav-div.fav-on .fav-icon-off {
+    display: none;
+}
+
+.fav-div .fav-icon-on {
+    display: none;
+}
+
 
 /* CSS PAGE CONTACT */
 
