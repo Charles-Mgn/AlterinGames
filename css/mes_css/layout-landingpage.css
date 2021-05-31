@@ -45,13 +45,17 @@ header > h1 {
         opacity: 1 }
 }
 
-header > img {
+header > a > img {
     grid-column: 4 / span 3;
-    width: 101%;
+    width: 27vw;
     height: auto;
     transform: translateX(-35vw);
     opacity: 0;
     animation: showLogo .3s .15s ease-in-out forwards;
+}
+
+header > a > img.sombre {
+    margin-left: -8vw;
 }
 
 #paragraph1, #paragraph2, #paragraph3 {

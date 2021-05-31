@@ -22,7 +22,8 @@
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="AlterinGames_backend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/param/param.ini" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/param/param.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/contribute.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/layout-landingpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/layout-landingpage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/light-mode.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/light-mode.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,14 +103,7 @@
       <workItem from="1622407596986" duration="5169000" />
       <workItem from="1622414071317" duration="657000" />
       <workItem from="1622419142546" duration="1010000" />
-      <workItem from="1622461180291" duration="4749000" />
-    </task>
-    <task id="LOCAL-00011" summary="exemple d'une page de règle (ici, poker)">
-      <created>1619889562638</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1619889562638</updated>
+      <workItem from="1622461180291" duration="5642000" />
     </task>
     <task id="LOCAL-00012" summary="création des pages html qui manquaient (vides) + renommage fichier &amp; classes en anglais">
       <created>1619890529159</created>
@@ -447,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622465922228</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="AlterinGames_backend">
+      <created>1622466534970</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1622466534970</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,9 +490,9 @@
     <MESSAGE value="fix classes PHP" />
     <MESSAGE value="tests classes PHP + DB" />
     <MESSAGE value="intégration de la landing page au site final" />
-    <MESSAGE value="AlterinGames_backend" />
     <MESSAGE value="Revert &quot;AlterinGames_backend&quot;&#10;&#10;This reverts commit 5466fc3b" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;AlterinGames_backend&quot;&#10;&#10;This reverts commit 5466fc3b" />
+    <MESSAGE value="AlterinGames_backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="AlterinGames_backend" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1073" y="429" key="#com.intellij.ide.util.MemberChooser" timestamp="1622462836064">
@@ -522,9 +523,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1127" y="633" key="VCS.ChangelistChooser/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622465903071" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1622466066625">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1622466546221">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622466066625" />
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622466546221" />
   </component>
 </project>
