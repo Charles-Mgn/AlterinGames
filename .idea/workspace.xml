@@ -19,56 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="ajout icône onglet">
-      <change afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/contact.php" afterDir="false" />
+    <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="ajout target _blank sur les liens menant hors du site + formulaire de contact en php (avec intégration captcha)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/param/param.ini" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/param/param.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board-game-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-game-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/board-games.html" beforeDir="false" afterPath="$PROJECT_DIR$/board-games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buy-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/buy-premium.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-games-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/card-games.html" beforeDir="false" afterPath="$PROJECT_DIR$/card-games.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/contribute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discover.html" beforeDir="false" afterPath="$PROJECT_DIR$/discover.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/bataille.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/bataille.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/blackjack.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/blackjack.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/cluedo.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/cluedo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/la-bonne-paye.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/la-bonne-paye.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/loups-garous.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/loups-garous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/monopoly.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/monopoly.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/poker.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/poker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/qui-est-ce.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/qui-est-ce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/risk.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/risk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/scrabble.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/scrabble.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/sept-familles.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/sept-familles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/uno.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/uno.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modify-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/modify-profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-doublons.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-doublons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-pertes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-pertes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/cluedo-passepartout.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/cluedo-passepartout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/cluedo-un-tueur-parmi-nous.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/cluedo-un-tueur-parmi-nous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/loups-garous-faiseur-de-roi.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/loups-garous-faiseur-de-roi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-banqueroute.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-banqueroute.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-debuts-difficiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-debuts-difficiles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-joueurs-fantomes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-joueurs-fantomes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/poker-binaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-binaire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/poker-renverse.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-renverse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/poker-simplifié.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-simplifié.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/qui-est-ce-qui-est-ce-vraiment.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/qui-est-ce-qui-est-ce-vraiment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/risk-tres-riske.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/risk-tres-riske.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-anagrammes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-anagrammes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-face-a-soi-meme.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-face-a-soi-meme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-mr-worldwide.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-mr-worldwide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/sept-familles-4-familles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/sept-familles-4-familles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-eliminations.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-eliminations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-equipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-equipes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-face-a-tous.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-face-a-tous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/why-premium.html" beforeDir="false" afterPath="$PROJECT_DIR$/why-premium.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend/AlterinGames_backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1qX4IqxWM5tPs66jvjCXPcJKgP5" />
@@ -148,14 +101,7 @@
       <workItem from="1622407596986" duration="5169000" />
       <workItem from="1622414071317" duration="657000" />
       <workItem from="1622419142546" duration="1010000" />
-      <workItem from="1622461180291" duration="7480000" />
-    </task>
-    <task id="LOCAL-00014" summary="création des pages html qui manquaient (vides) + renommage fichier &amp; classes en anglais">
-      <created>1619890587431</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1619890587431</updated>
+      <workItem from="1622461180291" duration="7894000" />
     </task>
     <task id="LOCAL-00015" summary="contenu html, pages premium">
       <created>1619891878499</created>
@@ -493,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622467881189</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="ajout target _blank sur les liens menant hors du site + formulaire de contact en php (avec intégration captcha)">
+      <created>1622469540484</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1622469540484</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +465,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pages TODO" />
     <MESSAGE value="pages de règles alternatives" />
     <MESSAGE value="fix images des jeux" />
     <MESSAGE value="enlever les commentaires dans le titres des pages de jeu" />
@@ -537,7 +489,8 @@
     <MESSAGE value="AlterinGames_backend" />
     <MESSAGE value="fix css landing page" />
     <MESSAGE value="ajout icône onglet" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout icône onglet" />
+    <MESSAGE value="ajout target _blank sur les liens menant hors du site + formulaire de contact en php (avec intégration captcha)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout target _blank sur les liens menant hors du site + formulaire de contact en php (avec intégration captcha)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1073" y="429" key="#com.intellij.ide.util.MemberChooser" timestamp="1622462836064">

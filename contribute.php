@@ -17,6 +17,12 @@
     <link rel="stylesheet" href="css/mes_css/menu.css">
     <link rel="stylesheet" href="css/mes_css/layout-forms.css">
     <link rel="icon" href="/img/logo_menu.png">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("form-contribute").submit();
+        }
+    </script>
 
     <title>Je contribue | AlterinGames</title>
 </head>
@@ -73,7 +79,11 @@
     </h2>
 
     <textarea cols="35" rows="10" name="alt_desc" required placeholder="Décrivez votre règle" maxlength="2000"></textarea>
-    <input type="submit" value="Partagez" class="final-submit">
+    <input type="submit"
+           value="Partagez"
+           class="final-submit g-recaptcha"
+           data-sitekey="6LfVlgIbAAAAAIYYwFMVHjt8G1C70ahSpHL6pCBU"
+           data-callback='onSubmit'>
     </form>
 
     <a href="games/poker.html" class="bouton-sobre bouton-return">Retour</a>
