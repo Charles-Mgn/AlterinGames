@@ -21,27 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="224d4d4e-4358-42e1-a8ef-43cf669045d2" name="Default Changelist" comment="nouvelle typo sur plusieurs éléments graphiques (bouton, pseudo)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/AlterinGames_backend/param/param.ini" beforeDir="false" afterPath="$PROJECT_DIR$/backend/AlterinGames_backend/param/param.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-doublons.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-doublons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-grandes-batailles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/bataille-pertes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/bataille-pertes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/cluedo-passepartout.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/cluedo-passepartout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/cluedo-un-tueur-parmi-nous.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/cluedo-un-tueur-parmi-nous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/loups-garous-faiseur-de-roi.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/loups-garous-faiseur-de-roi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-banqueroute.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-banqueroute.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-debuts-difficiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-debuts-difficiles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/monopoly-joueurs-fantomes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/monopoly-joueurs-fantomes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/poker-binaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-binaire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/poker-renverse.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-renverse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/poker-simplifié.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/poker-simplifié.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/qui-est-ce-qui-est-ce-vraiment.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/qui-est-ce-qui-est-ce-vraiment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/risk-tres-riske.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/risk-tres-riske.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-anagrammes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-anagrammes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-face-a-soi-meme.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-face-a-soi-meme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/scrabble-mr-worldwide.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/scrabble-mr-worldwide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/sept-familles-4-familles.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/sept-familles-4-familles.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-eliminations.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-eliminations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rules/uno-equipes.html" beforeDir="false" afterPath="$PROJECT_DIR$/rules/uno-equipes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,14 +106,7 @@
       <workItem from="1622483942316" duration="2490000" />
       <workItem from="1622487588778" duration="4129000" />
       <workItem from="1622671984424" duration="46000" />
-      <workItem from="1622725638230" duration="3954000" />
-    </task>
-    <task id="LOCAL-00026" summary="utilisation des bons liens internes">
-      <created>1619896731527</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1619896731527</updated>
+      <workItem from="1622725638230" duration="4250000" />
     </task>
     <task id="LOCAL-00027" summary="fix décalage footer et contenu main">
       <created>1620629959078</created>
@@ -470,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622728751884</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="fix système de vote">
+      <created>1622729654811</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1622729654811</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,8 +470,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix css boutons" />
-    <MESSAGE value="fix images qui créaient un overflow qui faisait apparaitre le menu lors des drags horizontaux" />
     <MESSAGE value="ajout attributs alt sur les images" />
     <MESSAGE value="css sur les forms" />
     <MESSAGE value="fix typo register form" />
@@ -514,7 +493,9 @@
     <MESSAGE value="fix menu access-profile.html" />
     <MESSAGE value="gestion des votes" />
     <MESSAGE value="(floran) page outil" />
-    <option name="LAST_COMMIT_MESSAGE" value="(floran) page outil" />
+    <MESSAGE value="fix sytème de vote" />
+    <MESSAGE value="fix système de vote" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix système de vote" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1073" y="429" key="#com.intellij.ide.util.MemberChooser" timestamp="1622462836064">
@@ -545,10 +526,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1127" y="633" key="VCS.ChangelistChooser/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622465903071" />
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1622728782911">
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1622729661927">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622728782911" />
+    <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1622729661927" />
     <state x="1097" y="634" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622728836188">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

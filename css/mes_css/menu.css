@@ -151,3 +151,11 @@
 .menu-bis li:nth-of-type(n+2) {
     animation: showItems .3s linear forwards;
 }
+
+.page-outil .menu ul {
+    margin-bottom: 2rem;
+}
+
+.page-outil .menu img {
+    margin-bottom: -1rem;
+}
