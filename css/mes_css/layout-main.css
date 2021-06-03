@@ -388,3 +388,130 @@ a {
 #badges * {
     display: inline;
 }
+
+/* OUTILS */
+#container-resultat-de .non_visible,
+#container-resultat-pieces .non_visible {
+    display: none;
+}
+
+.container-resultat-de .visible,
+#container-resultat-de .courant,
+#container-resultat-pieces .visible,
+#container-resultat-pieces .courant {
+    display: inline-block;
+}
+
+.outils{
+    width: 100vw;
+    margin: 0 -.7rem;
+}
+
+.outils li{
+    border-image: url("../../img/menu-border.png") 4;
+    border-width: 3px;
+    border-style: solid;
+    padding: 3vw;
+    min-height: 65vh;
+    margin: 3vw;
+    position: relative;
+}
+
+#container-resultat-de,
+#container-resultat-pieces {
+    width: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outils li img {
+    max-width: 24vw;
+    height:auto;
+    margin: 2vw;
+    flex: auto;
+}
+
+.outils button:first-of-type {
+    width: 50vw;
+    margin-left: calc((85vw - 50vw)/2);
+    bottom: 12vh;
+}
+
+.outils button {
+    position: absolute;
+    bottom: 1rem;
+
+    margin-left: calc((85vw - 50vw)/5);
+    margin-right: calc((85vw - 50vw)/5);
+
+    color: #FFFFFF;
+    background-color: #EA9632;
+    border: none;
+
+    width: 20vw;
+    height: 20vw;
+}
+
+.outils .precedant-de,
+.outils .precedant-piece{
+    left: 10vw;
+    font-family: 'Amatic-Bold';
+    font-size: 10rem;
+    border-radius: 5rem;
+    line-height: 0;
+}
+
+.outils .suivant-de,
+.outils .suivant-piece {
+    right: 10vw;
+    font-family: 'Amatic-Bold';
+    font-size: 10rem;
+    border-radius: 20rem;
+    line-height: 0;
+}
+
+#container-resultat-de .non_visible,
+#container-resultat-pieces .non_visible {
+    display: none;
+}
+
+#container-resultat-de .visible,
+#container-resultat-de .courant,
+#container-resultat-pieces .visible,
+#container-resultat-pieces .courant {
+    display: inline-block;
+}
+
+#bouton-lancer-de {
+    font-family: 'Amatic-Bold';
+    font-size: 5rem;
+}
+
+#bouton-lancer-pieces {
+    font-family: 'Amatic-Bold';
+    font-size: 4rem;
+}
+
+.outils-autre {
+    text-align: center;
+    font-family: 'Amatic-Bold';
+    font-size: 3rem;
+}
+
+@keyframes sideSlide1 {
+    50% {transform: translateX(7px)}
+}
+@keyframes sideSlide2 {
+    50% {transform: translateX(-7px)}
+}
+
+.anim-side-1 {
+    display: inline-block;
+    padding: 0 1.5rem;
+    animation: sideSlide1 2s ease-in-out infinite;
+}
+.anim-side-2 {
+    display: inline-block;
+    padding: 0 1.5rem;
+    animation: sideSlide2 2s ease-in-out infinite;
+}

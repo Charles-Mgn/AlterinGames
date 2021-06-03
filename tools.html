@@ -8,16 +8,14 @@
     <link rel="stylesheet" href="css/mes_css/layout-secondary.css">
     <link rel="stylesheet" href="css/mes_css/layout-footer.css">
     <link rel="stylesheet" href="css/mes_css/menu.css">
-    <link rel="icon" href="/img/logo_menu.png">
+    <link rel="stylesheet" href="css/mes_css/carrousel.css">
 
     <title>Profil | AlterinGames</title>
 </head>
 
 <body>
 <header>
-    <img src="img/image_cartes.png" alt="" class="img_head">
-    <img src="img/logo.webp" alt="Logo AlterinGames: Alter the rules" class="logo claire">
-    <h1>Jeux de cartes</h1>
+    <h1>Outils</h1>
 
     <!--MENU-->
     <div class="nav-toggle" onclick='document.documentElement.classList.toggle("menu-open")'>
@@ -25,21 +23,192 @@
     </div>
     <nav class="menu">
         <ul>
-            <li class="menu-lien-principal"><a href="index.html">Accueil</a></li>
+            <li class="menu-lien-principal"><a href="">Accueil</a></li>
             <li class="menu-lien-principal"><a href="board-games.html">Jeux de société</a></li>
             <li class="menu-lien-principal"><a href="card-games.html">Jeux de cartes</a></li>
             <li class="menu-lien-principal"><a href="tools.html">Outils</a></li>
-            <li class="menu-lien-secondaire"><a href="profile.php">Profil</a></li>
-            <li class="menu-lien-secondaire"><a href="settings.php">Paramètres</a></li>
+            <li class="menu-lien-secondaire"><a href="profile.html">Profil</a></li>
+            <li class="menu-lien-secondaire"><a href="settings.html">Paramètres</a></li>
+            <li class="menu-lien-secondaire"><a href="contact.html">Contact</a></li>
         </ul>
-        <h1>devenez les maîtres du jeu</h1>
+
+        <h1>prenez le contrôle des règles</h1>
         <img src="img/logo_menu.png" alt="Logo AlterinGames: Alter the rules" class="claire">
     </nav>
 </header>
+<main >
+    <div class="carrousel">
+        <ul class="outils">
+            <!--LES OUTILS-->
+            <li>
+                <div id="container-resultat-de" >
+                    <img alt="1er dé" class="image-resultat visible" src="img/de_1.png" />
+                    <img alt="2ème dé" class="image-resultat visible" src="img/de_1.png" />
+                    <img alt="3ème dé" class="image-resultat courant" src="img/de_1.png" />
+                    <img alt="4ème dé" class="image-resultat non_visible" src="img/de_1.png" />
+                    <img alt="5ème dé" class="image-resultat non_visible" src="img/de_1.png" />
+                    <img alt="6ème dé" class="image-resultat non_visible" src="img/de_1.png" />
+                </div>
+                <button id="bouton-lancer-de">Lancez le dé</button>
+                <button class="precedant-de"  >-</button>
+                <button class="suivant-de"  >+</button>
+            </li>
+            <li>
+                <div id="container-resultat-pieces">
+                    <img alt="1er dé" class="image-resultat visible" src="img/piece_1.png" />
+                    <img alt="2ème dé" class="image-resultat visible" src="img/piece_1.png" />
+                    <img alt="3ème dé" class="image-resultat courant" src="img/piece_1.png" />
+                    <img alt="4ème dé" class="image-resultat non_visible" src="img/piece_1.png" />
+                    <img alt="5ème dé" class="image-resultat non_visible" src="img/piece_1.png" />
+                    <img alt="6ème dé" class="image-resultat non_visible" src="img/piece_1.png" />
+                </div>
+                <button id="bouton-lancer-pieces">Lancez la pièce</button>
+                <button class="precedant-piece" >-</button>
+                <button class="suivant-piece" >+</button>
+            </li>
 
-<main>
-    <h1>outils</h1>
+        </ul>
+    </div>
+    <p class="outils-autre"><span class="anim-side-1"><</span> Accédez aux différents outils <span class="anim-side-2">></span></p>
 </main>
-
 </body>
+<script>
+    'use strict'
+    let oui=document.querySelector(".outils")
+    console.log(oui)
+    document.querySelector(".outils").addEventListener('click',clickParentLiens)
+    function clickParentLiens(evt){
+        if (evt.target.getAttribute("class") === 'suivant-de') {
+            let le_de = document.querySelector('#container-resultat-de .courant').nextElementSibling || document.querySelector('#container-resultat-de>*:first-child');
+            changements(le_de);
+        }
+        else {
+            if (evt.target.getAttribute("class") === 'precedant-de') {
+                let le_de = document.querySelector('#container-resultat-de .courant').previousElementSibling || document.querySelector('#container-resultat-de>*:last-child');
+                changements(le_de);
+            }
+        }
+        if (evt.target.getAttribute("class") === 'suivant-piece') {
+            let la_piece = document.querySelector('#container-resultat-pieces .courant').nextElementSibling || document.querySelector('#container-resultat-pieces>*:first-child');
+            changements_piece(la_piece);
+        }
+        else {
+            if (evt.target.getAttribute("class") === 'precedant-piece') {
+                let la_piece = document.querySelector('#container-resultat-pieces .courant').previousElementSibling || document.querySelector('#container-resultat-pieces>*:last-child');
+                changements_piece(la_piece);
+            }
+        }
+    }
+
+    //dés
+
+
+    function changements(le_de){
+        le_de.className='courant';
+        let nbavant = 1;
+        let le_de_Avant =  le_de;
+        console.log(le_de)
+        while (le_de_Avant = le_de_Avant.previousElementSibling){
+            le_de_Avant.className='visible';
+            nbavant++;
+        }
+        let nbapres = 1;
+        let le_de_Apres =  le_de;
+        while (le_de_Apres = le_de_Apres.nextElementSibling){
+            le_de_Apres.className='non_visible';
+            nbapres++;
+        }
+    }
+
+    // Fonction qui génère un nombre aléatoire
+    // Retourne le nombre
+    const lancerDe = function () {
+        // Générer un nombre entre 1 et 6
+        const nombreDecimal = (Math.random() * 6) + 1
+        const nombre = Math.trunc(nombreDecimal)
+
+        // Retourner ce nombre
+        return nombre
+    }
+
+    const clickBoutonDe = function () {
+        const bouton = document.getElementById('bouton-lancer-de')
+        bouton.disabled = true
+
+        const ancienText = bouton.textContent
+        bouton.textContent = '...'
+
+        const image = document.querySelectorAll(`#container-resultat-de>*`)
+
+        for (let i = 0;i<6;i++){
+            console.log(image)
+            console.log(image[i])
+
+            const resultat = lancerDe()
+
+            image[i].src = `img/de_${resultat}.png`
+            bouton.textContent = ancienText
+            bouton.disabled = false
+        }
+
+    }
+
+    const bouton_de = document.getElementById('bouton-lancer-de')
+    bouton_de.addEventListener('click', clickBoutonDe)
+
+    //pièces
+
+
+    function changements_piece(la_piece){
+        la_piece.className='courant';
+        let nbavant = 1;
+        let la_piece_Avant =  la_piece;
+        console.log(la_piece)
+        while (la_piece_Avant = la_piece_Avant.previousElementSibling){
+            la_piece_Avant.className='visible';
+            nbavant++;
+        }
+        let nbapres = 1;
+        let la_piece_Apres =  la_piece;
+        while (la_piece_Apres = la_piece_Apres.nextElementSibling){
+            la_piece_Apres.className='non_visible';
+            nbapres++;
+        }
+    }
+
+    const lancerPieces = function () {
+        // Générer un nombre entre 1 et 6
+        const nombreDecimal = (Math.random() * 2) + 1
+        const nombre = Math.trunc(nombreDecimal)
+
+        // Retourner ce nombre
+        return nombre
+    }
+
+    const clickBoutonPieces = function () {
+        const bouton = document.getElementById('bouton-lancer-pieces')
+        bouton.disabled = true
+
+        const ancienText = bouton.textContent
+        bouton.textContent = '...'
+
+        const image = document.querySelectorAll(`#container-resultat-pieces>*`)
+
+        for (let i = 0;i<6;i++){
+            console.log(image)
+            console.log(image[i])
+
+
+            const resultat = lancerPieces()
+
+            image[i].src = `img/piece_${resultat}.png`
+            bouton.textContent = ancienText
+            bouton.disabled = false
+        }
+
+    }
+
+    const bouton_pieces = document.getElementById('bouton-lancer-pieces')
+    bouton_pieces.addEventListener('click', clickBoutonPieces)
+</script>
 </html>
